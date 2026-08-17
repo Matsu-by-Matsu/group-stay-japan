@@ -40,7 +40,7 @@
   let lang=['en','ja','zh-TW','ko'].includes(localStorage.getItem('gsj-language'))?localStorage.getItem('gsj-language'):'en',active='all',selected=null;const yen=n=>new Intl.NumberFormat(({ja:'ja-JP','zh-TW':'zh-TW',ko:'ko-KR'})[lang]||'en-US',{style:'currency',currency:'JPY',maximumFractionDigits:0}).format(n);
   function render(){const g=document.getElementById("grid"),q=Number(document.getElementById("guests").value||3);const list=stays.filter(s=>(active==="all"||s.city===active||(active==="6"&&s.max>=6))&&s.max>=q);g.innerHTML=list.length?list.map(s=>`<article class="card" data-id="${s.id}" tabindex="0"><div class="photo"><img src="${s.img}" alt="${s.name}" loading="lazy"><span class="badge">${s.operator} · ${{ja:"最大","zh-TW":"最多",ko:"최대"}[lang]||"Up to"} ${s.max}</span></div><div class="body"><div class="loc">${s.place}</div><h3>${s.name}</h3><div class="facts"><span class="fact">${s.size}</span><span class="fact">${s.feature}</span><span class="fact">${{ja:"最大","zh-TW":"最多",ko:"최대"}[lang]||"Up to"} ${s.max}</span></div><div class="card-bottom"><div class="from">${{ja:"日程・人数に応じた料金","zh-TW":"依日期與人數顯示價格",ko:"날짜와 인원에 따른 요금"}[lang]||"Rates for your dates and group"}<span class="price">${{ja:"予約先で確認","zh-TW":"於預訂平台確認",ko:"예약 사이트에서 확인"}[lang]||"Check with partner"}</span></div><button class="book" data-id="${s.id}">${{ja:"詳細を見る","zh-TW":"查看詳情",ko:"상세 보기"}[lang]||"View details"}</button></div></div></article>`).join(""):`<div class="empty">${{ja:"条件に合う宿がありません。人数またはエリアを変更してください。","zh-TW":"沒有符合條件的住宿，請調整人數或目的地。",ko:"조건에 맞는 숙소가 없습니다. 인원이나 지역을 변경해 주세요."}[lang]||"No stays match. Try another group size or destination."}</div>`;document.querySelectorAll(".card[data-id]").forEach(c=>{const go=()=>openDetails(c.dataset.id);c.onclick=go;c.onkeydown=e=>{if(e.key==="Enter")go()}})}
   function setDates(){const d=new Date(),a=new Date(d.getTime()+86400000*14),b=new Date(d.getTime()+86400000*16),fmt=x=>x.toISOString().slice(0,10);document.getElementById("checkIn").value=fmt(a);document.getElementById("checkOut").value=fmt(b);document.querySelectorAll("input[type=date]").forEach(x=>x.min=fmt(new Date(d.getTime()+86400000)))}
-  function openDetails(id){const q=new URLSearchParams({id,checkIn:document.getElementById('checkIn').value,checkOut:document.getElementById('checkOut').value,guests:document.getElementById('guests').value}),localPrefix=location.protocol==='file:'&&!location.pathname.includes('/_SYSTEM/')?'_SYSTEM/':'';location.href=localPrefix+'property.html?'+q.toString()}
+  function openDetails(id){const q=new URLSearchParams({id,checkIn:document.getElementById('checkIn').value,checkOut:document.getElementById('checkOut').value,guests:document.getElementById('guests').value});location.href='_SYSTEM/property.html?'+q.toString()}
 
 
 
@@ -51,6 +51,7 @@
   setDates();translate();
   </script>
 </body></html>
+
 
 
 
