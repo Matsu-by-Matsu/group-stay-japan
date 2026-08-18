@@ -1,0 +1,68 @@
+name: Check Trip.com affiliate links
+
+on:
+  schedule:
+    # 00:17 UTC = 09:17 JST every day
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: affiliate-link-monitor
+  cancel-in-progress: false
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+
+      - name: Check all Trip.com links
+        id: link-check
+        continue-on-error: true
+        run: node scripts/check-affiliate-links.mjs
+
+      - name: Open or update alert issue
+        if: steps.link-check.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = 'URGENT: Trip.com affiliate link check failed';
+            const body = [
+              'The daily GROUP STAY JAPAN affiliate-link monitor found an error.',
+              '',
+              `Run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              '',
+              'Please inspect the failed facility before accepting reservations through that link.'
+            ].join('\n');
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              per_page: 100
+            });
+            const existing = issues.find(issue => issue.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body
+              });
+            }
+
+      - name: Fail workflow when a link is unhealthy
+        if: steps.link-check.outcome == 'failure'
+        run: exit 1
