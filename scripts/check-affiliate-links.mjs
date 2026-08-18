@@ -1,19 +1,29 @@
 import fs from "node:fs/promises";
+import vm from "node:vm";
 
 const PROPERTY_FILE = new URL("../_SYSTEM/property.html", import.meta.url);
+const CATALOG_FILE = new URL("../_SYSTEM/catalog.js", import.meta.url);
 const EXPECTED_ALLIANCE_ID = "10118837";
 const EXPECTED_SID = "328695221";
-const EXPECTED_COUNT = 21;
+const EXPECTED_COUNT = 89;
 const CHECK_IN = "2026-09-01";
 const CHECK_OUT = "2026-09-03";
 const ADULTS = "3";
 
 const html = await fs.readFile(PROPERTY_FILE, "utf8");
+const catalog = await fs.readFile(CATALOG_FILE, "utf8");
 const linkPattern = /'(minn-[^']+)':\{[\s\S]*?partner:'(https:\/\/jp\.trip\.com\/[^']+)'/g;
 const links = [...html.matchAll(linkPattern)].map((match) => ({
   id: match[1],
   url: match[2],
 }));
+
+const catalogContext = { window: {} };
+vm.createContext(catalogContext);
+vm.runInContext(catalog, catalogContext);
+for (const [id, property] of Object.entries(catalogContext.window.GSJ_EXTRA_PROPERTIES || {})) {
+  links.push({ id, url: property.partner });
+}
 
 const failures = [];
 const results = [];
@@ -35,7 +45,8 @@ for (const link of links) {
   if (source.searchParams.get("SID") !== EXPECTED_SID) failures.push(`${link.id}: SID is missing or incorrect`);
   if (source.searchParams.get("trip_sub1") !== link.id) failures.push(`${link.id}: trip_sub1 does not match property id`);
   if (!adId) failures.push(`${link.id}: trip_sub3 is missing`);
-  if (!hotelId) failures.push(`${link.id}: Trip.com hotel id is missing from path`);
+  const isHotelDetail = Boolean(hotelId);
+  if (!isHotelDetail && !source.pathname.includes("/hotels/list")) failures.push(`${link.id}: unsupported Trip.com destination`);
 
   paths.add(source.pathname);
   if (adId) adIds.add(adId);
@@ -57,7 +68,7 @@ for (const link of links) {
     const ok =
       response.ok &&
       finalUrl.hostname === "jp.trip.com" &&
-      finalUrl.pathname.includes(`hotel-detail-${hotelId}`) &&
+      (isHotelDetail ? finalUrl.pathname.includes(`hotel-detail-${hotelId}`) : finalUrl.pathname.includes("/hotels/list")) &&
       finalUrl.searchParams.get("Allianceid") === EXPECTED_ALLIANCE_ID &&
       finalUrl.searchParams.get("SID") === EXPECTED_SID &&
       finalUrl.searchParams.get("trip_sub1") === link.id &&
@@ -71,8 +82,7 @@ for (const link of links) {
   }
 }
 
-if (paths.size !== links.length) failures.push(`Destination paths are not unique: ${paths.size}/${links.length}`);
-if (adIds.size !== links.length) failures.push(`trip_sub3 values are not unique: ${adIds.size}/${links.length}`);
+if (new Set(links.map((link) => link.id)).size !== links.length) failures.push("Property ids are not unique.");
 
 console.table(results.map(({ id, status, ok, finalUrl }) => ({ id, status, ok, destination: finalUrl ? new URL(finalUrl).pathname : "-" })));
 console.log(`Checked ${links.length} Trip.com affiliate links at ${new Date().toISOString()}.`);
