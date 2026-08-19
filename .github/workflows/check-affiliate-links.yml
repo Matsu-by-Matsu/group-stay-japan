@@ -2,8 +2,8 @@ name: Check Trip.com affiliate links
 
 on:
   schedule:
-    # 00:17 UTC = 09:17 JST every day
-    - cron: "17 0 * * *"
+    # 00:17 UTC = 09:17 JST every Monday
+    - cron: "17 0 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -22,23 +22,28 @@ jobs:
       - name: Check out site
         uses: actions/checkout@v4
 
+      - name: Check catalog photo integrity
+        id: catalog-check
+        continue-on-error: true
+        run: node scripts/check-catalog-integrity.mjs --online
+
       - name: Check all Trip.com links
         id: link-check
         continue-on-error: true
         run: node scripts/check-affiliate-links.mjs
 
       - name: Open or update alert issue
-        if: steps.link-check.outcome == 'failure'
+        if: steps.link-check.outcome == 'failure' || steps.catalog-check.outcome == 'failure'
         uses: actions/github-script@v7
         with:
           script: |
-            const title = 'URGENT: Trip.com affiliate link check failed';
+            const title = 'URGENT: catalog or affiliate integrity check failed';
             const body = [
-              'The daily GROUP STAY JAPAN affiliate-link monitor found an error.',
+              'The weekly GROUP STAY JAPAN catalog/affiliate monitor found an error.',
               '',
               `Run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
               '',
-              'Please inspect the failed facility before accepting reservations through that link.'
+              'Please inspect the failed facility, photo source, or affiliate link immediately.'
             ].join('\n');
             const { data: issues } = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
@@ -63,6 +68,6 @@ jobs:
               });
             }
 
-      - name: Fail workflow when a link is unhealthy
-        if: steps.link-check.outcome == 'failure'
+      - name: Fail workflow when catalog or links are unhealthy
+        if: steps.link-check.outcome == 'failure' || steps.catalog-check.outcome == 'failure'
         run: exit 1
