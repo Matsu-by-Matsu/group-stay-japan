@@ -1,0 +1,768 @@
+{
+  "minn-okuasakusa": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-okuasakusa",
+    "values": [],
+    "min": null,
+    "max": null,
+    "status": 200
+  },
+  "minn-asakusa": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-asakusa",
+    "values": [],
+    "min": null,
+    "max": null,
+    "status": 200
+  },
+  "minn-ueno": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-ueno",
+    "values": [
+      8
+    ],
+    "min": 8,
+    "max": 8,
+    "status": 200
+  },
+  "minn-ueno-iriya": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-iriya",
+    "values": [],
+    "min": null,
+    "max": null,
+    "status": 200
+  },
+  "minn-kappabashi": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-kappabashi",
+    "values": [
+      5,
+      6
+    ],
+    "min": 5,
+    "max": 6,
+    "status": 200
+  },
+  "minn-kuramae-north": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-kuramaenorth",
+    "values": [],
+    "min": null,
+    "max": null,
+    "status": 200
+  },
+  "minn-nihonbashi": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-nihonbashi",
+    "values": [],
+    "min": null,
+    "max": null,
+    "status": 200
+  },
+  "minn-akihabara": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-akihabara",
+    "values": [],
+    "min": null,
+    "max": null,
+    "status": 200
+  },
+  "minn-kamata": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-kamata",
+    "values": [],
+    "min": null,
+    "max": null,
+    "status": 200
+  },
+  "minn-gion": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-gion",
+    "values": [],
+    "min": null,
+    "max": null,
+    "status": 200
+  },
+  "minn-gion-kamogawa": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-gionkamogawa",
+    "values": [],
+    "min": null,
+    "max": null,
+    "status": 200
+  },
+  "minn-gion-sanjo": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-sanjo",
+    "values": [
+      4
+    ],
+    "min": 4,
+    "max": 4,
+    "status": 200
+  },
+  "minn-kiyomizu-gojo": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-kiyomizu-gojo",
+    "values": [
+      3
+    ],
+    "min": 3,
+    "max": 3,
+    "status": 200
+  },
+  "minn-karasuma-gojo": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-karasumagojo",
+    "values": [],
+    "min": null,
+    "max": null,
+    "status": 200
+  },
+  "minn-shijo-omiya": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-shijoomiya",
+    "values": [],
+    "min": null,
+    "max": null,
+    "status": 200
+  },
+  "minn-kawaramachi-gojo": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-kawaramachigojoriverside",
+    "values": [
+      7
+    ],
+    "min": 7,
+    "max": 7,
+    "status": 200
+  },
+  "minn-shin-osaka": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-shin-osaka",
+    "values": [
+      4
+    ],
+    "min": 4,
+    "max": 4,
+    "status": 200
+  },
+  "minn-juso": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-juso",
+    "values": [],
+    "min": null,
+    "max": null,
+    "status": 200
+  },
+  "minn-umeda-north": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-umeda-north",
+    "values": [
+      4,
+      6
+    ],
+    "min": 4,
+    "max": 6,
+    "status": 200
+  },
+  "minn-namba-nipponbashi": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn-namba-nipponbashi",
+    "values": [
+      8
+    ],
+    "min": 8,
+    "max": 8,
+    "status": 200
+  },
+  "minn-chitose": {
+    "source": "https://staytuned.asia/en/brands/minn/hotels/minn_chitose",
+    "values": [
+      12
+    ],
+    "min": 12,
+    "max": 12,
+    "status": 200
+  },
+  "mimaru-suites-tokyo-asakusa": {
+    "source": "https://mimaruhotels.com/en/hotel/suites-tokyo-asakusa/",
+    "values": [
+      6
+    ],
+    "min": 6,
+    "max": 6,
+    "status": 200
+  },
+  "mimaru-tokyo-station-east": {
+    "source": "https://mimaruhotels.com/en/hotel/tokyo-station-east/",
+    "values": [
+      8
+    ],
+    "min": 8,
+    "max": 8,
+    "status": 200
+  },
+  "mimaru-ueno-east": {
+    "source": "https://mimaruhotels.com/en/hotel/ueno-east/",
+    "values": [
+      8
+    ],
+    "min": 8,
+    "max": 8,
+    "status": 200
+  },
+  "mimaru-kinshicho": {
+    "source": "https://mimaruhotels.com/en/hotel/kinshicho/",
+    "values": [
+      6
+    ],
+    "min": 6,
+    "max": 6,
+    "status": 200
+  },
+  "mimaru-suites-tokyo-nihombashi": {
+    "source": "https://mimaruhotels.com/en/hotel/suites-tokyo-nihombashi/",
+    "values": [
+      6
+    ],
+    "min": 6,
+    "max": 6,
+    "status": 200
+  },
+  "mimaru-akasaka": {
+    "source": "https://mimaruhotels.com/en/hotel/akasaka/",
+    "values": [
+      8
+    ],
+    "min": 8,
+    "max": 8,
+    "status": 200
+  },
+  "mimaru-ueno-inaricho": {
+    "source": "https://mimaruhotels.com/en/hotel/ueno-inaricho/",
+    "values": [
+      12
+    ],
+    "min": 12,
+    "max": 12,
+    "status": 200
+  },
+  "mimaru-ueno-north": {
+    "source": "https://mimaruhotels.com/en/hotel/ueno-north/",
+    "values": [
+      6
+    ],
+    "min": 6,
+    "max": 6,
+    "status": 200
+  },
+  "mimaru-ueno-okachimachi": {
+    "source": "https://mimaruhotels.com/en/hotel/ueno-okachimachi/",
+    "values": [
+      8
+    ],
+    "min": 8,
+    "max": 8,
+    "status": 200
+  },
+  "mimaru-suitengumae": {
+    "source": "https://mimaruhotels.com/en/hotel/suitengumae/",
+    "values": [
+      9
+    ],
+    "min": 9,
+    "max": 9,
+    "status": 200
+  },
+  "mimaru-hatchobori": {
+    "source": "https://mimaruhotels.com/en/hotel/hatchobori/",
+    "values": [
+      8
+    ],
+    "min": 8,
+    "max": 8,
+    "status": 200
+  },
+  "mimaru-asakusa-station": {
+    "source": "https://mimaruhotels.com/en/hotel/asakusa-station/",
+    "values": [
+      8
+    ],
+    "min": 8,
+    "max": 8,
+    "status": 200
+  },
+  "mimaru-shinjuku-west": {
+    "source": "https://mimaruhotels.com/en/hotel/shinjuku-west/",
+    "values": [
+      6
+    ],
+    "min": 6,
+    "max": 6,
+    "status": 200
+  },
+  "mimaru-ginza-east": {
+    "source": "https://mimaruhotels.com/en/hotel/ginza-east/",
+    "values": [
+      6
+    ],
+    "min": 6,
+    "max": 6,
+    "status": 200
+  },
+  "mimaru-ikebukuro": {
+    "source": "https://mimaruhotels.com/en/hotel/ikebukuro/",
+    "values": [
+      8
+    ],
+    "min": 8,
+    "max": 8,
+    "status": 200
+  },
+  "mimaru-nijo-castle": {
+    "source": "https://mimaruhotels.com/en/hotel/nijo-castle/",
+    "values": [
+      8
+    ],
+    "min": 8,
+    "max": 8,
+    "status": 200
+  },
+  "mimaru-shinmachi-sanjo": {
+    "source": "https://mimaruhotels.com/en/hotel/shinmachi-sanjo/",
+    "values": [
+      8
+    ],
+    "min": 8,
+    "max": 8,
+    "status": 200
+  },
+  "mimaru-suites-kyoto-central": {
+    "source": "https://mimaruhotels.com/en/hotel/suites-kyoto-central/",
+    "values": [
+      6
+    ],
+    "min": 6,
+    "max": 6,
+    "status": 200
+  },
+  "mimaru-kawaramachi-gojo": {
+    "source": "https://mimaruhotels.com/en/hotel/kawaramachi-gojo/",
+    "values": [
+      8
+    ],
+    "min": 8,
+    "max": 8,
+    "status": 200
+  },
+  "mimaru-kyoto-station": {
+    "source": "https://mimaruhotels.com/en/hotel/kyoto-station/",
+    "values": [
+      8
+    ],
+    "min": 8,
+    "max": 8,
+    "status": 200
+  },
+  "mimaru-shijo-west": {
+    "source": "https://mimaruhotels.com/en/hotel/shijo-west/",
+    "values": [
+      9
+    ],
+    "min": 9,
+    "max": 9,
+    "status": 200
+  },
+  "mimaru-suites-kyoto-shijo": {
+    "source": "https://mimaruhotels.com/en/hotel/suites-kyoto-shijo/",
+    "values": [
+      6
+    ],
+    "min": 6,
+    "max": 6,
+    "status": 200
+  },
+  "mimaru-namba-north": {
+    "source": "https://mimaruhotels.com/en/hotel/namba-north/",
+    "values": [
+      4
+    ],
+    "min": 4,
+    "max": 4,
+    "status": 200
+  },
+  "mimaru-namba-station": {
+    "source": "https://mimaruhotels.com/en/hotel/namba-station/",
+    "values": [
+      6
+    ],
+    "min": 6,
+    "max": 6,
+    "status": 200
+  },
+  "mimaru-shinsaibashi-east": {
+    "source": "https://mimaruhotels.com/en/hotel/shinsaibashi-east/",
+    "values": [
+      7
+    ],
+    "min": 7,
+    "max": 7,
+    "status": 200
+  },
+  "mimaru-shinsaibashi-north": {
+    "source": "https://mimaruhotels.com/en/hotel/shinsaibashi-north/",
+    "values": [
+      8
+    ],
+    "min": 8,
+    "max": 8,
+    "status": 200
+  },
+  "mimaru-shinsaibashi-west": {
+    "source": "https://mimaruhotels.com/en/hotel/shinsaibashi-west/",
+    "values": [
+      9
+    ],
+    "min": 9,
+    "max": 9,
+    "status": 200
+  },
+  "fav-tokyoryogoku": {
+    "source": "https://fav-hotels.com/hotels/tokyoryogoku/",
+    "values": [
+      4,
+      6
+    ],
+    "min": 4,
+    "max": 6,
+    "status": 200
+  },
+  "fav-tokyonishinippori": {
+    "source": "https://fav-hotels.com/hotels/tokyonishinippori/",
+    "values": [
+      4,
+      6
+    ],
+    "min": 4,
+    "max": 6,
+    "status": 200
+  },
+  "fav-hiroshimaheiwaodori": {
+    "source": "https://fav-hotels.com/hotels/hiroshimaheiwaodori/",
+    "values": [
+      4,
+      6
+    ],
+    "min": 4,
+    "max": 6,
+    "status": 200
+  },
+  "fav-hiroshima-stadium": {
+    "source": "https://fav-hotels.com/hotels/hiroshima-stadium/",
+    "values": [
+      4,
+      6
+    ],
+    "min": 4,
+    "max": 6,
+    "status": 200
+  },
+  "fav-kagoshimachuo": {
+    "source": "https://fav-hotels.com/hotels/kagoshimachuo/",
+    "values": [
+      4,
+      6
+    ],
+    "min": 4,
+    "max": 6,
+    "status": 200
+  },
+  "fav-hakodate": {
+    "source": "https://fav-hotels.com/hotels/hakodate/",
+    "values": [
+      4,
+      5,
+      6
+    ],
+    "min": 4,
+    "max": 6,
+    "status": 200
+  },
+  "fav-ise": {
+    "source": "https://fav-hotels.com/hotels/ise/",
+    "values": [
+      2,
+      4,
+      6
+    ],
+    "min": 2,
+    "max": 6,
+    "status": 200
+  },
+  "fav-kumamoto": {
+    "source": "https://fav-hotels.com/hotels/kumamoto/",
+    "values": [
+      3,
+      4,
+      6
+    ],
+    "min": 3,
+    "max": 6,
+    "status": 200
+  },
+  "fav-takamatsu": {
+    "source": "https://fav-hotels.com/hotels/takamatsu/",
+    "values": [
+      2,
+      4,
+      6
+    ],
+    "min": 2,
+    "max": 6,
+    "status": 200
+  },
+  "fav-takayama": {
+    "source": "https://fav-hotels.com/hotels/takayama/",
+    "values": [
+      4,
+      6
+    ],
+    "min": 4,
+    "max": 6,
+    "status": 200
+  },
+  "fav-lux-sapporosusukino": {
+    "source": "https://fav-hotels.com/hotels/lux/sapporosusukino/",
+    "values": [
+      2,
+      4,
+      6
+    ],
+    "min": 2,
+    "max": 6,
+    "status": 200
+  },
+  "fav-lux-miyazaki": {
+    "source": "https://fav-hotels.com/hotels/lux/miyazaki/",
+    "values": [
+      2,
+      4,
+      6
+    ],
+    "min": 2,
+    "max": 6,
+    "status": 200
+  },
+  "fav-lux-nagasaki": {
+    "source": "https://fav-hotels.com/hotels/lux/nagasaki/",
+    "values": [
+      2,
+      4,
+      6,
+      8,
+      12
+    ],
+    "min": 2,
+    "max": 12,
+    "status": 200
+  },
+  "fav-lux-hidatakayama": {
+    "source": "https://fav-hotels.com/hotels/lux/hidatakayama/",
+    "values": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "min": 2,
+    "max": 8,
+    "status": 200
+  },
+  "fav-lux-kagoshimatenmonkan": {
+    "source": "https://fav-hotels.com/hotels/lux/kagoshimatenmonkan/",
+    "values": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "min": 2,
+    "max": 8,
+    "status": 200
+  },
+  "grand-base-gb-saiwaimachi": {
+    "source": "https://grand-base.jp/hotel/gb-saiwaimachi/",
+    "values": [
+      4,
+      6,
+      7,
+      8
+    ],
+    "min": 4,
+    "max": 8,
+    "status": 200
+  },
+  "grand-base-gb-nagasakicity": {
+    "source": "https://grand-base.jp/hotel/gb-nagasakicity/",
+    "values": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "min": 4,
+    "max": 7,
+    "status": 200
+  },
+  "grand-base-gb-urakami": {
+    "source": "https://grand-base.jp/hotel/gb-urakami/",
+    "values": [
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "min": 4,
+    "max": 12,
+    "status": 200
+  },
+  "grand-base-nagasaki-nakamachi": {
+    "source": "https://grand-base.jp/hotel/nagasaki-nakamachi/",
+    "values": [
+      4,
+      8,
+      10
+    ],
+    "min": 4,
+    "max": 10,
+    "status": 200
+  },
+  "grand-base-gb-osu": {
+    "source": "https://grand-base.jp/hotel/gb-osu/",
+    "values": [
+      5,
+      8
+    ],
+    "min": 5,
+    "max": 8,
+    "status": 200
+  },
+  "grand-base-gb-hakatabay": {
+    "source": "https://grand-base.jp/hotel/gb-hakatabay/",
+    "values": [
+      4,
+      8
+    ],
+    "min": 4,
+    "max": 8,
+    "status": 200
+  },
+  "grand-base-gb-crane": {
+    "source": "https://grand-base.jp/hotel/gb-crane/",
+    "values": [
+      5,
+      9
+    ],
+    "min": 5,
+    "max": 9,
+    "status": 200
+  },
+  "grand-base-gb-yakuinodori": {
+    "source": "https://grand-base.jp/hotel/gb-yakuinodori/",
+    "values": [
+      2,
+      6
+    ],
+    "min": 2,
+    "max": 6,
+    "status": 200
+  },
+  "grand-base-gb-mojiko": {
+    "source": "https://grand-base.jp/hotel/gb-mojiko/",
+    "values": [
+      4,
+      8
+    ],
+    "min": 4,
+    "max": 8,
+    "status": 200
+  },
+  "grand-base-gb-mojinagomi": {
+    "source": "https://grand-base.jp/hotel/gb-mojinagomi/",
+    "values": [
+      4,
+      5,
+      7,
+      8
+    ],
+    "min": 4,
+    "max": 8,
+    "status": 200
+  },
+  "grand-base-gb-karatsuekiminami": {
+    "source": "https://grand-base.jp/hotel/gb-karatsuekiminami/",
+    "values": [
+      4
+    ],
+    "min": 4,
+    "max": 4,
+    "status": 200
+  },
+  "grand-base-gb-beppuekimae": {
+    "source": "https://grand-base.jp/hotel/gb-beppuekimae/",
+    "values": [
+      4,
+      6
+    ],
+    "min": 4,
+    "max": 6,
+    "status": 200
+  },
+  "grand-base-gb-beppueki": {
+    "source": "https://grand-base.jp/hotel/gb-beppueki/",
+    "values": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "min": 4,
+    "max": 7,
+    "status": 200
+  },
+  "grand-base-gb-beppuekihigashi": {
+    "source": "https://grand-base.jp/hotel/gb-beppuekihigashi/",
+    "values": [
+      6
+    ],
+    "min": 6,
+    "max": 6,
+    "status": 200
+  },
+  "grand-base-gb-hiroshimaekimae": {
+    "source": "https://grand-base.jp/hotel/gb-hiroshimaekimae/",
+    "values": [
+      4,
+      5
+    ],
+    "min": 4,
+    "max": 5,
+    "status": 200
+  },
+  "grand-base-gb-okayamaekimae": {
+    "source": "https://grand-base.jp/hotel/gb-okayamaekimae/",
+    "values": [
+      4,
+      5,
+      6
+    ],
+    "min": 4,
+    "max": 6,
+    "status": 200
+  },
+  "grand-base-gb-kurashikichuo": {
+    "source": "https://grand-base.jp/hotel/gb-kurashikichuo/",
+    "values": [
+      4,
+      5
+    ],
+    "min": 4,
+    "max": 5,
+    "status": 200
+  },
+  "grand-base-gb-kagoshima-tenmonkan": {
+    "source": "https://grand-base.jp/hotel/gb-kagoshima-tenmonkan/",
+    "values": [
+      3,
+      5,
+      6,
+      10
+    ],
+    "min": 3,
+    "max": 10,
+    "status": 200
+  }
+}
