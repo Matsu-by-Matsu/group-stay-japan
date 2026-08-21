@@ -24,14 +24,14 @@
   @keyframes dockSettle{from{opacity:.35;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
   @media(prefers-reduced-motion:reduce){.search-wrap.is-floating{animation:none}}
   @media(max-width:620px){
-    .search-wrap.is-floating{display:block;padding:6px 8px 8px;background:#f7f6f1;border-bottom-color:rgba(22,76,57,.16);box-shadow:0 8px 22px rgba(9,37,27,.15)}
+    .search-wrap.is-floating{display:block;padding:4px 6px 5px;background:#f7f6f1;border-bottom-color:rgba(22,76,57,.16);box-shadow:0 8px 22px rgba(9,37,27,.15)}
     .search-wrap.is-floating .search{width:100%;display:grid;grid-template-columns:.9fr 1fr 1fr .62fr;gap:0;padding:0;border:1px solid rgba(22,76,57,.16);overflow:hidden;border-radius:12px;background:#fff}
-    .search-wrap.is-floating .field{min-width:0;padding:6px 7px;border-right:1px solid var(--line);border-bottom:0}
+    .search-wrap.is-floating .field{min-width:0;padding:5px 6px;border-right:1px solid var(--line);border-bottom:0}
     .search-wrap.is-floating .field:nth-child(4){border-right:0}
     .search-wrap.is-floating .field label{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:7px;letter-spacing:.02em}
     .search-wrap.is-floating .field input,.search-wrap.is-floating .field select{min-width:0;font-size:11px}
-    .search-wrap.is-floating .search-btn{grid-column:1/-1;width:100%;min-height:34px;margin:0;padding-right:84px;padding-left:84px;border-radius:0;font-size:11px}
-    .search-wrap.is-floating .floating-language{position:absolute;right:14px;bottom:12px;z-index:2;width:78px;height:26px;padding:0 6px;border-color:rgba(255,255,255,.35);border-radius:7px;background:#123f30;font-size:9px}
+    .search-wrap.is-floating .search-btn{grid-column:1/-1;width:100%;min-height:32px;margin:0;padding-right:84px;padding-left:84px;border-radius:0;font-size:11px}
+    .search-wrap.is-floating .floating-language{position:absolute;right:12px;bottom:8px;z-index:2;width:76px;height:24px;padding:0 6px;border-color:rgba(255,255,255,.35);border-radius:7px;background:#123f30;font-size:9px}
   }
   </style>
 </head>
@@ -111,7 +111,7 @@
   mainLanguage.onchange=e=>setLanguage(e.target.value);floatingLanguage.onchange=e=>setLanguage(e.target.value);
   let dockThreshold=0,dockState=false;
   function measureDockThreshold(){if(!dockState)dockThreshold=searchWrap.getBoundingClientRect().bottom+scrollY}
-  function updateFloatingSearch(){const y=scrollY;let next=dockState;if(!dockState&&y>dockThreshold+12)next=true;else if(dockState&&y<dockThreshold-24)next=false;if(next!==dockState){dockState=next;searchWrap.classList.toggle('is-floating',dockState)}floatingLanguage.value=lang}
+  function updateFloatingSearch(){const y=scrollY;let next=dockState;if(!dockState&&y>dockThreshold+12)next=true;else if(dockState&&y<dockThreshold-(innerWidth<=620?160:100))next=false;if(next!==dockState){dockState=next;searchWrap.classList.toggle('is-floating',dockState)}floatingLanguage.value=lang}
   measureDockThreshold();addEventListener('scroll',updateFloatingSearch,{passive:true});addEventListener('resize',()=>{if(!dockState)measureDockThreshold();updateFloatingSearch()});requestAnimationFrame(()=>{measureDockThreshold();updateFloatingSearch()});
   setDates();
   const initialCity=pageParams.get('city'),initialGuests=Number(pageParams.get('guests'));
