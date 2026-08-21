@@ -12,7 +12,7 @@
   /* Stable compact search bar after the complete hero form has passed */
   .search-anchor{height:0}
   .floating-language{display:none}
-  .search-wrap.is-floating{position:fixed;z-index:45;top:0;left:0;width:100%;max-width:none;padding:10px 24px;display:flex;align-items:center;justify-content:center;gap:10px;background:#f7f6f1;border-bottom:1px solid rgba(22,76,57,.14);box-shadow:0 10px 30px rgba(9,37,27,.14)}
+  .search-wrap.is-floating{position:fixed;z-index:45;top:0;left:0;width:100%;max-width:none;padding:10px 24px;display:flex;align-items:center;justify-content:center;gap:10px;background:#f7f6f1;border-bottom:1px solid rgba(22,76,57,.14);box-shadow:0 10px 30px rgba(9,37,27,.14);animation:dockSettle .18s cubic-bezier(.22,.75,.28,1)}
   .search-wrap.is-floating .search{width:min(1030px,calc(100vw - 170px));max-width:none;padding:6px;border:1px solid rgba(22,76,57,.13);border-radius:14px;box-shadow:none}
   .search-wrap.is-floating .field{padding:7px 13px}
   .search-wrap.is-floating .field label{margin-bottom:2px;font-size:8px}
@@ -21,6 +21,8 @@
   .search-wrap.is-floating .search-error,.search-wrap.is-floating .search-summary{display:none}
   .search-wrap.is-floating .floating-language{position:static;flex:0 0 104px;width:104px;height:50px;display:block;padding:0 11px;color:#fff;border:1px solid #2b614f;border-radius:13px;background:#164c39;font-size:12px;font-weight:700;outline:none;box-shadow:none}
   .search-wrap.is-floating .floating-language option{color:var(--ink);background:#fff}
+  @keyframes dockSettle{from{opacity:.35;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+  @media(prefers-reduced-motion:reduce){.search-wrap.is-floating{animation:none}}
   @media(max-width:620px){
     .search-wrap.is-floating{display:block;padding:6px 8px 8px;background:#f7f6f1;border-bottom-color:rgba(22,76,57,.16);box-shadow:0 8px 22px rgba(9,37,27,.15)}
     .search-wrap.is-floating .search{width:100%;display:grid;grid-template-columns:.9fr 1fr 1fr .62fr;gap:0;padding:0;border:1px solid rgba(22,76,57,.16);overflow:hidden;border-radius:12px;background:#fff}
