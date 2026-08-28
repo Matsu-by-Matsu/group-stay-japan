@@ -40,11 +40,11 @@ const localized=Object.fromEntries(Object.entries(properties).map(([id,p])=>[id,
 </script><script>
 // Keep each property's search variants grouped under one stable canonical URL.
 const canonical=document.createElement('link');canonical.rel='canonical';canonical.href='https://groupstayjapan.synthx.jp/_SYSTEM/property.html?id='+encodeURIComponent(propertyId);document.head.appendChild(canonical);
-function tripLocaleHost(lang){return lang==='ja'?'jp.trip.com':lang==='ko'?'kr.trip.com':lang==='zh-TW'?'tw.trip.com':'www.trip.com'}
+function tripLocaleHost(lang){return lang==='ja'?'jp.trip.com':lang==='ko'?'kr.trip.com':lang==='zh-TW'?'tw.trip.com':'www.trip.com'}function mapLocale(lang){return lang==='zh-TW'?'zh-TW':lang==='ko'?'ko':lang==='ja'?'ja':'en'}function refreshLocalizedMap(){const mapQuery=encodeURIComponent(property.name+' '+property.address),hl=mapLocale(language);document.getElementById('mapFrame').src='https://www.google.com/maps?q='+mapQuery+'&output=embed&hl='+encodeURIComponent(hl);document.getElementById('mapLink').href='https://www.google.com/maps/search/?api=1&query='+mapQuery+'&hl='+encodeURIComponent(hl)}
 function localizedRoomSize(value,lang){if(lang!=='en'||!value)return value;return String(value).replace(/([0-9])(?:㎡|m²)\+/g,'$1+ sqm').replace(/㎡|m²/g,' sqm').replace(/\s+sqm/g,' sqm')}
 function refreshLocalizedRoomSize(){document.getElementById('size').textContent=localizedRoomSize(property.size,language)}
-const originalTranslate=translate;translate=function(){originalTranslate();refreshLocalizedRoomSize()};
+const originalTranslate=translate;translate=function(){originalTranslate();refreshLocalizedRoomSize();refreshLocalizedMap()};
 lang.onchange=e=>{language=e.target.value;translate();document.getElementById('cleaning').textContent=copy[language].clean};
-refreshLocalizedRoomSize();
+refreshLocalizedRoomSize();refreshLocalizedMap();
 booking.onsubmit=e=>{e.preventDefault();if(!checkIn.value||!checkOut.value||checkOut.value<=checkIn.value){error.textContent=language==='ja'?'チェックアウト日はチェックイン日の翌日以降を選択してください。':language==='zh-TW'?'退房日期必須晚於入住日期。':language==='ko'?'체크아웃 날짜는 체크인 날짜 이후여야 합니다.':'Check-out must be after check-in.';return}error.textContent='';if(typeof gtag==='function')gtag('event','affiliate_click',{item_id:propertyId,partner:'Trip.com',guests:Number(guests.value),nights:nights(),language});const url=new URL(booking.dataset.partnerUrl||property.source);if(/(^|\.)trip\.com$/i.test(url.hostname))url.hostname=tripLocaleHost(language);url.searchParams.set('checkIn',checkIn.value);url.searchParams.set('checkOut',checkOut.value);url.searchParams.set('adult',guests.value);window.open(url.toString(),'_blank','noopener')};
 </script></body></html>
