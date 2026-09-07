@@ -818,12 +818,12 @@ const longEditorial = {
     ],
   ],
 };
-const longVisuals = [
-  { src: "/assets/minn/minn-akihabara/02.jpg", stay: "Minn Akihabara" },
-  { src: "/assets/minn/minn-akihabara/06.jpg", stay: "Minn Akihabara" },
-  { src: "/assets/minn/minn-akihabara/16.jpg", stay: "Minn Akihabara" },
-  { src: "/assets/minn/minn-okuasakusa/10.jpg", stay: "Minn Oku Asakusa" },
-];
+const themeVisuals = {
+  four: ["room", "beds", "kitchen"],
+  six: ["room", "beds", "families", "laundry"],
+  eight: ["room", "privacy", "beds", "kitchen"],
+  long: ["room", "kitchen", "laundry", "services"],
+};
 const css = `:root{--ink:#14231d;--green:#164c39;--lime:#d8f26f;--paper:#f7f6f1;--muted:#65716c;--line:#dfe4df}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 Arial,sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 36px));margin:auto}header{padding:19px 0;background:#103a2c;color:#fff}.nav{display:flex;justify-content:space-between;align-items:center;gap:18px}.brand{font-weight:900;letter-spacing:.08em}.langs{display:flex;gap:7px;flex-wrap:wrap}.langs a{padding:7px 10px;border:1px solid #ffffff66;border-radius:99px;font-size:12px}.langs [aria-current]{background:#fff;color:var(--green)}.hero{padding:72px 0 58px;background:linear-gradient(135deg,#123f30,#1d6249);color:#fff}.eye{color:var(--lime);font-size:12px;font-weight:900;letter-spacing:.13em}.hero h1{max-width:920px;margin:12px 0 18px;font-size:clamp(40px,6.5vw,72px);line-height:1.03;letter-spacing:-.05em}.lead{max-width:820px;font-size:17px;color:#ffffffdf}.count{display:inline-block;margin-top:18px;padding:8px 13px;border-radius:99px;background:var(--lime);color:var(--green);font-weight:800}.guide{padding:58px 0;background:#ece9df}.guide h2,.head h2,.faq h2{margin:0;font-size:clamp(28px,4vw,42px);line-height:1.15}.tips{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:24px}.tip{padding:23px;background:#fff;border-radius:16px}.tip b{display:block;margin-bottom:7px}.tip p{margin:0;color:var(--muted)}.editorial{padding:58px 0;background:#fff}.editorial-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.editorial article{padding:24px;border:1px solid var(--line);border-radius:16px}.editorial h2{margin:0 0 8px;font-size:20px}.editorial p{margin:0;color:var(--muted)}.content,.faq{padding:66px 0}.head p{max-width:860px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:21px}.card{overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:20px}.photo{display:block;height:220px;position:relative;overflow:hidden;background:#ddd}.photo img{width:100%;height:100%;object-fit:cover}.photo span{position:absolute;left:12px;top:12px;padding:7px 9px;background:var(--lime);color:var(--green);border-radius:99px;font-size:10px;font-weight:800}.body{padding:18px}.place{margin:0;color:var(--muted);font-size:10px;font-weight:800;text-transform:uppercase}.body h2{min-height:52px;margin:5px 0 14px;font-size:19px;line-height:1.35}.body dl{margin:0 0 16px}.body dl div{display:flex;justify-content:space-between;gap:10px;padding:7px 0;border-bottom:1px solid #edf0ed;font-size:11px}.body dt{color:var(--muted)}.body dd{margin:0;text-align:right;font-weight:700}.button{display:block;padding:11px;border-radius:10px;background:var(--green);color:#fff;text-align:center;font-size:12px;font-weight:800}.faq details{max-width:900px;padding:18px 0;border-bottom:1px solid var(--line)}.faq summary{font-weight:800;cursor:pointer}.faq p{color:var(--muted)}footer{padding:38px 0;background:#0d2c21;color:#ffffffb8}.foot{display:flex;justify-content:space-between;gap:25px}.foot a{color:#fff;font-weight:800}.small{max-width:680px;font-size:11px}@media(max-width:850px){.grid{grid-template-columns:1fr 1fr}.editorial-grid{grid-template-columns:1fr}}@media(max-width:590px){.nav,.foot{align-items:flex-start;flex-direction:column}.hero{padding:52px 0}.grid,.tips{grid-template-columns:1fr}.body h2{min-height:0}.photo{height:245px}}`;
 function page(th, k) {
   const x = th.t[k],
@@ -833,10 +833,8 @@ function page(th, k) {
     lang = k === "tw" ? "zh-TW" : k;
   const tips = x.tips
     .map(([a, b], i) => {
-      if (th.id !== "long")
-        return `<div class="tip"><b>0${i + 1} · ${esc(a)}</b><p>${esc(b)}</p></div>`;
-      const visual = longVisuals[i];
-      return `<article class="tip" style="padding:0;overflow:hidden"><div class="photo" style="height:210px"><img src="${esc(visual.src)}" alt="${esc(`${visual.stay} — ${a}`)}" width="640" height="420" loading="lazy"></div><div class="body"><b>0${i + 1} · ${esc(a)}</b><p>${esc(b)}</p><p class="place" style="margin-top:12px">${esc(visual.stay)}</p></div></article>`;
+      const visual = themeVisuals[th.id][i];
+      return `<article class="tip" style="padding:0;overflow:hidden"><div class="photo" style="height:210px"><img src="/assets/guide-${visual}.svg" alt="${esc(a)}" width="640" height="420" loading="lazy"></div><div class="body"><b>0${i + 1} · ${esc(a)}</b><p>${esc(b)}</p></div></article>`;
     })
     .join("");
   const cards = list
