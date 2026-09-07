@@ -834,7 +834,7 @@ function page(th, k) {
   const tips = x.tips
     .map(([a, b], i) => {
       const visual = themeVisuals[th.id][i];
-      return `<article class="tip" style="padding:0;overflow:hidden"><div class="photo" style="height:210px"><img src="/assets/guide-${visual}.svg" alt="${esc(a)}" width="640" height="420" loading="lazy"></div><div class="body"><b>0${i + 1} · ${esc(a)}</b><p>${esc(b)}</p></div></article>`;
+      return `<article class="tip" style="padding:0;overflow:hidden"><div class="photo" style="height:210px"><img src="/assets/guide-${visual}.jpg" alt="${esc(a)}" width="640" height="420" loading="lazy"></div><div class="body"><b>0${i + 1} · ${esc(a)}</b><p>${esc(b)}</p></div></article>`;
     })
     .join("");
   const cards = list
