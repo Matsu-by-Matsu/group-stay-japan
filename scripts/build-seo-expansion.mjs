@@ -9,9 +9,10 @@ vm.createContext(box);
 vm.runInContext(cat, box);
 const m = idx.match(/const stays=\[([\s\S]*?)\n\s*\];\s*\n\s*stays\.push/);
 if (!m) throw Error("stays not found");
-const data = vm
+const allStays = vm
   .runInNewContext(`[${m[1]}]`)
-  .concat(box.window.GSJ_EXTRA_STAYS || [])
+  .concat(box.window.GSJ_EXTRA_STAYS || []);
+const data = allStays
   .filter((x) => x.city === "tokyo" && Number.isFinite(Number(x.max)))
   .sort(
     (a, b) => Number(b.max) - Number(a.max) || a.name.localeCompare(b.name),
@@ -902,10 +903,11 @@ const urls = [
     "/_SYSTEM/about.html",
     "/_SYSTEM/partners.html",
     ...themes.flatMap((th) => Object.keys(meta).map((k) => `/${th.dir[k]}/`)),
+    ...allStays.map((stay) => `/_SYSTEM/property.html?id=${encodeURIComponent(stay.id)}`),
   ],
   day = new Date().toISOString().slice(0, 10);
 fs.writeFileSync(
   path.join(root, "sitemap.xml"),
-  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>https://groupstayjapan.synthx.jp${u}</loc><lastmod>${day}</lastmod></url>`).join("\n")}\n</urlset>\n`,
+  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>https://groupstayjapan.synthx.jp${esc(u)}</loc>${u.startsWith("/_SYSTEM/property.html?") ? "" : `<lastmod>${day}</lastmod>`}</url>`).join("\n")}\n</urlset>\n`,
 );
 console.log(`Built ${themes.length * 4} SEO pages`);
