@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
+import { roomComparison } from "./verified-room-comparisons.mjs";
 const root = path.resolve(import.meta.dirname, "..");
 const idx = fs.readFileSync(path.join(root, "index.html"), "utf8");
 const cat = fs.readFileSync(path.join(root, "_SYSTEM/catalog.js"), "utf8");
@@ -859,7 +860,7 @@ function page(th, k) {
         description: x.desc,
         url,
         inLanguage: meta[k].code,
-        dateModified: new Date().toISOString().slice(0, 10),
+        dateModified: "2026-09-16",
         mainEntity: {
           "@type": "ItemList",
           numberOfItems: list.length,
@@ -890,7 +891,7 @@ function page(th, k) {
     )
     .join(
       "",
-    )}</nav></div></header><main><section class="hero"><div class="wrap"><div class="eye">${esc(x.eye)}</div><h1>${esc(x.h1)}</h1><p class="lead">${esc(x.lead)}</p><span class="count">${list.length}</span></div></section><section class="guide"><div class="wrap"><h2>${esc(x.guide)}</h2><div class="tips">${tips}</div></div></section>${th.id === "long" ? `<section class="editorial"><div class="wrap editorial-grid">${longEditorial[k].map(([a, b]) => `<article><h2>${esc(a)}</h2><p>${esc(b)}</p></article>`).join("")}</div></section>` : ""}<section class="content"><div class="wrap"><div class="head"><h2>${esc(x.list)}</h2><p>${esc(c.note)}</p></div><div class="grid">${cards}</div></div></section><section class="faq"><div class="wrap"><h2>${esc(c.faq)}</h2>${x.faqs.map(([a, b]) => `<details><summary>${esc(a)}</summary><p>${esc(b)}</p></details>`).join("")}</div></section></main><footer><div class="wrap foot"><div><a href="/">${esc(c.back)}</a><p class="small">${esc(c.disclosure)}</p></div><a href="/?city=tokyo&guests=${th.guests}">${esc(c.all)} →</a></div></footer><script>document.querySelectorAll('[data-stay]').forEach(a=>a.addEventListener('click',()=>{if(window.GSJTracking)window.GSJTracking.event('select_content',{content_type:'seo_stay',item_id:a.dataset.stay,seo_theme:'${th.id}',language:'${k}'})}));</script></body></html>`;
+    )}</nav></div></header><main><section class="hero"><div class="wrap"><div class="eye">${esc(x.eye)}</div><h1>${esc(x.h1)}</h1><p class="lead">${esc(x.lead)}</p><span class="count">${list.length}</span></div></section><section class="guide"><div class="wrap"><h2>${esc(x.guide)}</h2><div class="tips">${tips}</div></div></section>${th.id === "long" ? `<section class="editorial"><div class="wrap editorial-grid">${longEditorial[k].map(([a, b]) => `<article><h2>${esc(a)}</h2><p>${esc(b)}</p></article>`).join("")}</div></section>` : ""}${roomComparison(th.id, k, esc)}<section class="content"><div class="wrap"><div class="head"><h2>${esc(x.list)}</h2><p>${esc(c.note)}</p></div><div class="grid">${cards}</div></div></section><section class="faq"><div class="wrap"><h2>${esc(c.faq)}</h2>${x.faqs.map(([a, b]) => `<details><summary>${esc(a)}</summary><p>${esc(b)}</p></details>`).join("")}</div></section><nav class="wrap" style="padding:24px 0" aria-label="${esc(({en:"Related guides",ja:"関連ガイド",tw:"相關指南",ko:"관련 가이드"})[k])}">${themes.filter(other=>other.id!==th.id).map(other=>`<a style="display:inline-block;margin:8px 20px 8px 0;text-decoration:underline" href="/${other.dir[k]}/">${esc(other.t[k].h1)}</a>`).join("")}</nav></main><footer><div class="wrap foot"><div><a href="/">${esc(c.back)}</a><p class="small">${esc(c.disclosure)}</p></div><a href="/?city=tokyo&guests=${th.guests}">${esc(c.all)} →</a></div></footer><script>document.querySelectorAll('[data-stay]').forEach(a=>a.addEventListener('click',()=>{if(window.GSJTracking)window.GSJTracking.event('select_content',{content_type:'seo_stay',item_id:a.dataset.stay,seo_theme:'${th.id}',language:'${k}'})}));</script></body></html>`;
 }
 for (const th of themes)
   for (const k of Object.keys(meta)) {
@@ -905,9 +906,9 @@ const urls = [
     ...themes.flatMap((th) => Object.keys(meta).map((k) => `/${th.dir[k]}/`)),
     ...allStays.map((stay) => `/_SYSTEM/property.html?id=${encodeURIComponent(stay.id)}`),
   ],
-  day = new Date().toISOString().slice(0, 10);
+  day = "2026-09-16";
 fs.writeFileSync(
   path.join(root, "sitemap.xml"),
-  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>https://groupstayjapan.synthx.jp${esc(u)}</loc>${u.startsWith("/_SYSTEM/property.html?") ? "" : `<lastmod>${day}</lastmod>`}</url>`).join("\n")}\n</urlset>\n`,
+  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>https://groupstayjapan.synthx.jp${esc(u)}</loc>${u.startsWith("/_SYSTEM/") ? "" : `<lastmod>${day}</lastmod>`}</url>`).join("\n")}\n</urlset>\n`,
 );
 console.log(`Built ${themes.length * 4} SEO pages`);
