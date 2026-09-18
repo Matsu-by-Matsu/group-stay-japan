@@ -1,3 +1,4 @@
+import { japaneseRoomSize } from './property-language.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
@@ -20,11 +21,13 @@ fs.writeFileSync(path.join(root,'assets/legacy-property-redirect.js'),legacy+'\n
 for(const [id,original] of Object.entries(ctx.data))for(const lang of ['en','ja']){
  if(!/^[a-z0-9-]+$/.test(id))throw Error('Invalid ID');
  const ja=lang==='ja',p={...original,photos:original.photos.map(u=>u.replace(/^\.\.\//,'/'))},t=ctx.translations[lang];
- const jp={name:p.name,place:p.place,address:p.address,description:`${p.name}（${p.place}）の宿泊情報です。${p.max?`掲載情報の最大宿泊人数は${p.max}名です。`:''}${p.size&&p.size!=='Room-dependent'?`客室面積の目安は${p.size}です。`:''}定員・寝具・設備は客室タイプによって異なります。住所と施設情報を確認し、宿泊日と人数に合う部屋を予約先で選んでください。`,area:`${p.name}の所在地は${p.address}です。交通手段やチェックイン方法の詳細は施設情報の出典と予約先で確認してください。`,beds:[['寝具構成','選択した客室の条件をご確認ください']],bedCount:'客室タイプによる'};
+ if(ja)p.size=japaneseRoomSize(p.size);
+ const jp={name:p.name,place:p.place,address:p.address,description:`${p.name}（${p.place}）の宿泊情報です。${p.max?`掲載情報の最大宿泊人数は${p.max}名です。`:''}${p.size&&p.size!=='客室タイプによる'?`客室面積：${japaneseRoomSize(original.size)}。`:''}定員・寝具・設備は客室タイプによって異なります。住所と施設情報を確認し、宿泊日と人数に合う部屋を予約先で選んでください。`,area:`${p.name}の所在地は${p.address}です。交通手段やチェックイン方法の詳細は施設情報の出典と予約先で確認してください。`,beds:[['寝具構成','選択した客室の条件をご確認ください']],bedCount:'客室タイプによる'};
  const x=ja?jp:{...p,description:`${p.name} is in ${p.place}. ${p.description}`};
  const canonical=origin+route(id,lang);
  let h=template.slice(0,start)+`const properties=${json({[id]:p})};\n`+template.slice(end);
  h=h.replace('<script src="catalog.js"></script>','').replace('<script src="/assets/legacy-property-redirect.js"></script>','')
+ .replace(/document\.title=[^;]+;/g,'')
  .replaceAll('../index.html','/').replace('<html lang="en">',`<html lang="${lang}">`)
  .replace("properties[params.get('id')]?params.get('id'):'minn-okuasakusa'",json(id))
  .replace(/let language=[\s\S]*?;const propertyId=/,`let language=['zh-TW','ko'].includes(params.get('lang'))?params.get('lang'):${json(lang)};const propertyId=`)
