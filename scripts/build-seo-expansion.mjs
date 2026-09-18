@@ -842,7 +842,7 @@ function page(th, k) {
   const cards = list
     .map(
       (s) =>
-        `<article class="card"><a class="photo" data-stay="${esc(s.id)}" href="/stays/${encodeURIComponent(s.id)}/?guests=${th.guests}&lang=${lang}"><img src="${esc(img(s.img))}" alt="${esc(s.name)}" loading="lazy"><span>${esc(s.operator)} · ${esc(c.max)} ${esc(s.max)}</span></a><div class="body"><p class="place">${esc(s.place)}</p><h2>${esc(s.name)}</h2><dl><div><dt>${esc(c.max)}</dt><dd>${esc(s.max)}</dd></div><div><dt>${esc(c.size)}</dt><dd>${esc(fact(s.size, k))}</dd></div><div><dt>${esc(c.feat)}</dt><dd>${esc(th.id === "long" ? longFeature(s, k) : fact(s.feature, k))}</dd></div></dl><a class="button" data-stay="${esc(s.id)}" href="/stays/${encodeURIComponent(s.id)}/?guests=${th.guests}&lang=${lang}">${esc(c.view)} →</a></div></article>`,
+        `<article class="card"><a class="photo" data-stay="${esc(s.id)}" href="${lang === "ja" ? "/ja" : ""}/stays/${encodeURIComponent(s.id)}/?guests=${th.guests}&lang=${lang}"><img src="${esc(img(s.img))}" alt="${esc(s.name)}" loading="lazy"><span>${esc(s.operator)} · ${esc(c.max)} ${esc(s.max)}</span></a><div class="body"><p class="place">${esc(s.place)}</p><h2>${esc(s.name)}</h2><dl><div><dt>${esc(c.max)}</dt><dd>${esc(s.max)}</dd></div><div><dt>${esc(c.size)}</dt><dd>${esc(fact(s.size, k))}</dd></div><div><dt>${esc(c.feat)}</dt><dd>${esc(th.id === "long" ? longFeature(s, k) : fact(s.feature, k))}</dd></div></dl><a class="button" data-stay="${esc(s.id)}" href="${lang === "ja" ? "/ja" : ""}/stays/${encodeURIComponent(s.id)}/?guests=${th.guests}&lang=${lang}">${esc(c.view)} →</a></div></article>`,
     )
     .join("");
   const alts = Object.keys(meta)
@@ -868,7 +868,7 @@ function page(th, k) {
             "@type": "ListItem",
             position: i + 1,
             name: s.name,
-            url: `https://groupstayjapan.synthx.jp/stays/${encodeURIComponent(s.id)}/`,
+            url: `https://groupstayjapan.synthx.jp${lang === "ja" ? "/ja" : ""}/stays/${encodeURIComponent(s.id)}/`,
           })),
         },
       },
@@ -904,11 +904,11 @@ const urls = [
     "/_SYSTEM/about.html",
     "/_SYSTEM/partners.html",
     ...themes.flatMap((th) => Object.keys(meta).map((k) => `/${th.dir[k]}/`)),
-    ...allStays.map((stay) => `/stays/${encodeURIComponent(stay.id)}/`),
+    ...allStays.flatMap((stay) => [`/stays/${encodeURIComponent(stay.id)}/`, `/ja/stays/${encodeURIComponent(stay.id)}/`]),
   ],
   day = "2026-09-16";
 fs.writeFileSync(
   path.join(root, "sitemap.xml"),
-  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>https://groupstayjapan.synthx.jp${esc(u)}</loc>${u.startsWith("/_SYSTEM/") ? "" : `<lastmod>${u.startsWith("/stays/") ? "2026-09-18" : day}</lastmod>`}</url>`).join("\n")}\n</urlset>\n`,
+  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>https://groupstayjapan.synthx.jp${esc(u)}</loc>${u.startsWith("/_SYSTEM/") ? "" : `<lastmod>${u.includes("/stays/") ? "2026-09-18" : day}</lastmod>`}</url>`).join("\n")}\n</urlset>\n`,
 );
 console.log(`Built ${themes.length * 4} SEO pages`);
