@@ -54,3 +54,13 @@ for(const [id,original] of Object.entries(ctx.data))for(const lang of ['en','ja'
  const dir=path.join(root,route(id,lang));fs.mkdirSync(dir,{recursive:true});fs.writeFileSync(path.join(dir,'index.html'),h);
 }
 console.log(`Built ${ids.length*2} English/Japanese static property pages and legacy redirect`);
+
+// A normal HTML directory makes every property reachable without running the search UI.
+const homeFile=path.join(root,'index.html');
+let home=fs.readFileSync(homeFile,'utf8');
+const groups=new Map();
+for(const [id,p] of Object.entries(ctx.data)){const key=p.operator||'Other stays';if(!groups.has(key))groups.set(key,[]);groups.get(key).push({id,...p});}
+const directory=`<!-- property-directory:start --><section class="wrap" id="all-stays-directory" style="padding:28px 0"><h2>Browse all stays / 施設一覧</h2><p>Open a hotel’s English or Japanese guide. Room capacity and availability depend on the room you select.<br>施設名から詳細をご覧いただけます。定員と空室は選択する客室によって異なります。</p>${[...groups].map(([brand,items])=>`<details style="margin:12px 0;border:1px solid #ccd6d0;border-radius:10px;padding:12px"><summary style="cursor:pointer;font-weight:bold">${esc(brand)} (${items.length})</summary><ul style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:14px;padding:18px 22px">${items.sort((a,b)=>a.name.localeCompare(b.name)).map(p=>`<li><a style="text-decoration:underline" href="${route(p.id,'en')}">${esc(p.name)}</a><br><span>${esc(p.place)}</span> · <a style="text-decoration:underline" href="${route(p.id,'ja')}" lang="ja">日本語</a></li>`).join('')}</ul></details>`).join('')}</section><!-- property-directory:end -->`;
+if(home.includes('<!-- property-directory:start -->'))home=home.replace(/<!-- property-directory:start -->[\s\S]*?<!-- property-directory:end -->/,directory);
+else{if(!home.includes('</main>'))throw Error('Homepage main missing');home=home.replace('</main>',directory+'</main>');}
+fs.writeFileSync(homeFile,home);
