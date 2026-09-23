@@ -909,6 +909,6 @@ const urls = [
   day = "2026-09-16";
 fs.writeFileSync(
   path.join(root, "sitemap.xml"),
-  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>https://groupstayjapan.synthx.jp${esc(u)}</loc>${u.startsWith("/_SYSTEM/") ? "" : `<lastmod>${u.includes("/stays/") ? "2026-09-18" : day}</lastmod>`}</url>`).join("\n")}\n</urlset>\n`,
+  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>https://groupstayjapan.synthx.jp${esc(u)}</loc>${u.startsWith("/_SYSTEM/") ? "" : `<lastmod>${u.includes("/stays/") ? (/\/(mimaru-tokyo-station-east|mimaru-suites-tokyo-nihombashi)\//.test(u) ? "2026-09-24" : "2026-09-18") : day}</lastmod>`}</url>`).join("\n")}\n</urlset>\n`,
 );
 console.log(`Built ${themes.length * 4} SEO pages`);
