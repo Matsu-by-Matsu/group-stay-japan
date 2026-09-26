@@ -1,0 +1,7 @@
+(()=>{'use strict';
+document.querySelectorAll('.gsj-readiness-table').forEach(table=>{table.querySelectorAll('[data-readiness-filter]').forEach(button=>button.addEventListener('click',()=>{const level=Number(button.dataset.readinessFilter);table.querySelectorAll('[data-readiness-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));table.querySelectorAll('tr[data-stay-level]').forEach(row=>{row.hidden=Number(row.dataset.stayLevel)<level;});}));});
+const grid=document.querySelector('#grid');if(!grid)return;
+fetch('/assets/gsj-readiness-levels.json?v=20260926').then(r=>r.json()).then(data=>{
+ const update=()=>{const lang=document.querySelector('#lang')?.value||document.documentElement.lang;const labels=data.labels[lang]||data.labels.en;grid.querySelectorAll('.card[data-id]').forEach(card=>{const level=data.properties[card.dataset.id];if(!level)return;let badge=card.querySelector('.gsj-stay-badge');if(!badge){badge=document.createElement('span');const body=card.querySelector('.body');if(!body)return;body.prepend(badge);}badge.className='gsj-stay-badge gsj-stay-level-'+level;badge.dataset.readinessLevel=level;badge.textContent=labels[level-1];});};
+ update();addEventListener('gsj-render',update);addEventListener('gsj-language',update);document.querySelector('#lang')?.addEventListener('change',update);document.querySelector('#langFloating')?.addEventListener('change',update);
+});})();

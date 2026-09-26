@@ -1,0 +1,14 @@
+/* Explicit labels carry meaning as well as colour. All four pairs exceed WCAG AA contrast. */
+.gsj-stay-badge{display:inline-flex;align-items:center;max-width:100%;padding:7px 12px;border-radius:999px;font:700 13px/1.4 system-ui,sans-serif;letter-spacing:0;text-transform:none;border:1px solid transparent;margin:0 0 12px;white-space:normal}
+.gsj-stay-level-1{background:#edf4ef;color:#193c2f;border-color:#c7d7cc}
+.gsj-stay-level-2{background:#cde4d5;color:#12392c;border-color:#a7cab6}
+.gsj-stay-level-3{background:#276447;color:#fff;border-color:#276447}
+.gsj-stay-level-4{background:#12392c;color:#fff;border-color:#12392c}
+.gsj-readiness-summary{display:inline-block;border-radius:10px;padding:10px 14px;margin:8px 0 18px;font:700 15px/1.6 system-ui,sans-serif}
+.gsj-readiness-filters{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 12px}
+.gsj-readiness-filters button{font:600 14px/1.4 system-ui,sans-serif;padding:9px 16px;border:1px solid #a7cab6;border-radius:999px;color:#164c39;background:#fff;cursor:pointer}
+.gsj-readiness-filters button[aria-pressed=true]{background:#164c39;color:#fff;border-color:#164c39}
+.gsj-readiness-filters button:focus-visible{outline:3px solid #6d9b42;outline-offset:3px}
+.gsj-readiness-table td .gsj-stay-badge{margin:0;min-width:135px}
+#grid .gsj-stay-badge{font-size:11px;padding:6px 9px;margin:0 0 10px}
+@media(max-width:600px){.gsj-readiness-summary{font-size:13px}.gsj-stay-badge{font-size:12px}.gsj-readiness-filters button{font-size:13px;padding:8px 12px}}
