@@ -1,7 +1,7 @@
 (()=>{'use strict';
 const node=document.getElementById('gsj-page-data'),data=node?JSON.parse(node.textContent):{},q=new URLSearchParams(location.search);
 if(data.id&&['en','ja'].includes(q.get('lang'))&&q.get('lang')!==data.lang){const u=new URL((q.get('lang')==='ja'?'/ja':'')+'/stays/'+data.id+'/',location.origin);u.search=location.search;u.hash=location.hash;location.replace(u.href);return;}
-const input=id=>document.getElementById(id), ci=input('checkIn'),co=input('checkOut'),guests=input('guests'),room=input('room-type');
+const input=id=>document.getElementById(id), ci=data.id?input('checkIn'):null,co=data.id?input('checkOut'):null,guests=data.id?input('guests'):null,room=data.id?input('room-type'):null;
 function nights(){return ci&&co?Math.max(0,Math.round((Date.parse(co.value)-Date.parse(ci.value))/86400000)):Number(q.get('nights'))||0}
 function selected(){return data.rooms?.find(r=>r.key===room?.value)}
 function params(extra={}){return Object.assign({property_id:data.id||'',room_type:selected()?.name||'',guests:Number(guests?.value||q.get('guests'))||0,nights:nights(),page_type:q.get('from')||data.pageType||'property',stay_level:selected()?.level||0},extra)}
