@@ -49,10 +49,10 @@ def augment(s,id,lang):
   if match:a['href']=re.sub(r'/(?:ja/|zh-tw/|ko/)?stays/', '/'+LANGS[lang][0]+'stays/',href)
   elif href=='/':a['href']='/?lang='+lang
   elif 'trip.com/' in href:
-   u=urlsplit(href);q=dict(parse_qsl(u.query));q['curr']={'en':'USD','ja':'JPY','zh-TW':'TWD','ko':'KRW'}[lang];a['href']=urlunsplit((u.scheme,{'en':'www.trip.com','ja':'jp.trip.com','zh-TW':'tw.trip.com','ko':'kr.trip.com'}[lang],u.path,urlencode(q),u.fragment))
+   u=urlsplit(href);q=dict(parse_qsl(u.query));q['locale']={'en':'en-XX','ja':'ja-JP','zh-TW':'zh-TW','ko':'ko-KR'}[lang];q['curr']={'en':'USD','ja':'JPY','zh-TW':'TWD','ko':'KRW'}[lang];a['href']=urlunsplit((u.scheme,{'en':'www.trip.com','ja':'jp.trip.com','zh-TW':'tw.trip.com','ko':'kr.trip.com'}[lang],u.path,urlencode(q),u.fragment))
  for asset in s.select('script[src],link[rel=stylesheet]'):
   key='src' if asset.name=='script' else 'href'
-  if any(n in asset[key] for n in ['gsj-rooms.js','gsj-ui.js']):asset[key]=asset[key].split('?')[0]+'?v=20260927locale1'
+  if any(n in asset[key] for n in ['gsj-rooms.js','gsj-ui.js']):asset[key]=asset[key].split('?')[0]+'?v=20260927locale2'
  return s
 # Create new versions before changing the existing source.
 for f in sorted((R/'stays').glob('*/index.html')):
