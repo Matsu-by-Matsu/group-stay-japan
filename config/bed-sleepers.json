@@ -1,0 +1,3736 @@
+{
+ "rule": {
+  "bed": {
+   "キング・クイーン・ダブル": 2,
+   "二段ベッド（1台）": 2,
+   "シングル・セミダブル・ロフトベッド": 1
+  },
+  "notBed": [
+   "ソファベッド",
+   "デイベッド",
+   "布団"
+  ],
+  "ambiguous": "二段ベッドの内訳が括弧書きのもの（数えない）",
+  "source": "各施設ページ（日本語）の寝具の記載。公式サイトから9/25に確認した内容",
+  "created": "2026-10-03 Claude"
+ },
+ "properties": {
+  "fav-hakodate": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、キングベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 5,
+    "bedsJa": "セミダブルベッド×2、デイベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "セミダブルベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 4,
+    "bedsJa": "セミダブルベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 5,
+    "bedsJa": "セミダブルベッド×2、デイベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-8",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "fav-hiroshima-stadium": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×1 布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "布団×4",
+    "bedSleepers": 0,
+    "otherSleepers": 4,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×1 布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   }
+  ],
+  "fav-hiroshimaheiwaodori": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2 布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2 布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "fav-ise": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 2,
+    "bedsJa": "シングルベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ダブルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×1 布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   }
+  ],
+  "fav-kagoshimachuo": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×3、デイベッド×1",
+    "bedSleepers": 3,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2 布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "セミダブルベッド×2、デイベッド×1 布団×1",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "fav-kumamoto": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2 布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 3,
+    "bedsJa": "セミダブルベッド×2 布団×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "fav-lux-hidatakayama": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "布団×4",
+    "bedSleepers": 0,
+    "otherSleepers": 4,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-8",
+    "capacity": 8,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2、デイベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-9",
+    "capacity": 2,
+    "bedsJa": "クイーンベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "fav-lux-kagoshimatenmonkan": [
+   {
+    "id": "room-0",
+    "capacity": 2,
+    "bedsJa": "キングベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 2,
+    "bedsJa": "クイーンベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 2,
+    "bedsJa": "クイーンベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "布団×4",
+    "bedSleepers": 0,
+    "otherSleepers": 4,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-8",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-9",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-10",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "fav-lux-miyazaki": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 2,
+    "bedsJa": "キングベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "fav-lux-nagasaki": [
+   {
+    "id": "room-0",
+    "capacity": 8,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2、デイベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、デイベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、デイベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 2,
+    "bedsJa": "キングベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-8",
+    "capacity": 4,
+    "bedsJa": "布団×4",
+    "bedSleepers": 0,
+    "otherSleepers": 4,
+    "status": "ok"
+   },
+   {
+    "id": "room-9",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×1、セミダブルベッド×1",
+    "bedSleepers": 3,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "fav-lux-sapporosusukino": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 2,
+    "bedsJa": "クイーンベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 2,
+    "bedsJa": "キングベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "布団×4",
+    "bedSleepers": 0,
+    "otherSleepers": 4,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-8",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "fav-takamatsu": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、ダブルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "キングベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×1 布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 2,
+    "bedsJa": "クイーンベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 2,
+    "bedsJa": "キングベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "fav-takayama": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "fav-tokyonishinippori": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ダブルベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×2、デイベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ダブルベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "fav-tokyoryogoku": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×1、デイベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、デイベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×3、デイベッド×1",
+    "bedSleepers": 3,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×1、シングルベッド×1、デイベッド×1",
+    "bedSleepers": 3,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×1、シングルベッド×1、デイベッド×1",
+    "bedSleepers": 3,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-gb-beppueki": [
+   {
+    "id": "room-0",
+    "capacity": 7,
+    "bedsJa": "ダブルベッド×3、シングルベッド×1",
+    "bedSleepers": 7,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×3",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、シングルベッド×1",
+    "bedSleepers": 5,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-gb-beppuekihigashi": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×3",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×3",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×3",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-gb-beppuekimae": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×3",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-gb-crane": [
+   {
+    "id": "room-0",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、シングルベッド×1",
+    "bedSleepers": 5,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 9,
+    "bedsJa": "ダブルベッド×3、シングルベッド×3",
+    "bedSleepers": 9,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-gb-hakatabay": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×8",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-gb-hiroshimaekimae": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×1、シングルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×1、シングルベッド×3",
+    "bedSleepers": 5,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-gb-kagoshima-tenmonkan": [
+   {
+    "id": "room-0",
+    "capacity": 3,
+    "bedsJa": "ダブルベッド×1、シングルベッド×1",
+    "bedSleepers": 3,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、シングルベッド×1",
+    "bedSleepers": 5,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、シングルベッド×1",
+    "bedSleepers": 5,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 10,
+    "bedsJa": "ダブルベッド×4、シングルベッド×2",
+    "bedSleepers": 10,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-gb-karatsuekiminami": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×1、シングルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-gb-kurashikichuo": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、シングルベッド×1",
+    "bedSleepers": 5,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-gb-mojiko": [
+   {
+    "id": "room-0",
+    "capacity": 8,
+    "bedsJa": "ダブルベッド×4",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-gb-mojinagomi": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、ソファベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、ソファベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 8,
+    "bedsJa": "ダブルベッド×4",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、ソファベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 7,
+    "bedsJa": "ダブルベッド×3、シングルベッド×1",
+    "bedSleepers": 7,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-gb-nagasakicity": [],
+  "grand-base-gb-okayamaekimae": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×1、シングルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×1、シングルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×1、シングルベッド×3",
+    "bedSleepers": 5,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×2、シングルベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-gb-osu": [
+   {
+    "id": "room-0",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、シングルベッド×1",
+    "bedSleepers": 5,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 8,
+    "bedsJa": "ダブルベッド×4",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-gb-saiwaimachi": [],
+  "grand-base-gb-urakami": [],
+  "grand-base-gb-yakuinodori": [
+   {
+    "id": "room-0",
+    "capacity": 2,
+    "bedsJa": "ダブルベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×3",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×3",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "grand-base-nagasaki-nakamachi": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 8,
+    "bedsJa": "ダブルベッド×4",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 10,
+    "bedsJa": "ダブルベッド×2、ダブルベッド×3",
+    "bedSleepers": 10,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-akasaka": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×4、布団×2、ソファベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 4,
+    "status": "ok"
+   }
+  ],
+  "mimaru-asakusa-station": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×4、二段ベッド×2",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-ginza-east": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ロフトベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、布団×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-hatchobori": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "キングベッド×1、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ロフトベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、布団×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×4、二段ベッド×2",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-ikebukuro": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "ロフトベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "ロフトベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-8",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×8",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-kawaramachi-gojo": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×5",
+    "bedSleepers": 5,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×6",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、ロフトベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-8",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×4、二段ベッド×2",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-9",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-kinshicho": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、ロフトベッド×2、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、二段ベッド×1、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-kyoto-station": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×4、二段ベッド×2",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-namba-north": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ロフトベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-namba-station": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ロフトベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ロフトベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、二段ベッド×1、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-8",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-9",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-10",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-11",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-nijo-castle": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、二段ベッド×1、ソファベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×4、二段ベッド×2",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 10,
+    "bedsJa": "シングルベッド×4、布団×6",
+    "bedSleepers": 4,
+    "otherSleepers": 6,
+    "status": "ok"
+   }
+  ],
+  "mimaru-shijo-west": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-shinjuku-west": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×6",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、布団×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   }
+  ],
+  "mimaru-shinmachi-sanjo": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×4、二段ベッド×2",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   }
+  ],
+  "mimaru-shinsaibashi-east": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 7,
+    "bedsJa": "シングルベッド×2、二段ベッド×1、布団×3",
+    "bedSleepers": 4,
+    "otherSleepers": 3,
+    "status": "ok"
+   }
+  ],
+  "mimaru-shinsaibashi-north": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×4、二段ベッド×2",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-shinsaibashi-west": [
+   {
+    "id": "room-0",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 7,
+    "bedsJa": "シングルベッド×2、布団×3、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 9,
+    "bedsJa": "シングルベッド×4、布団×3、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 3,
+    "status": "ok"
+   }
+  ],
+  "mimaru-suitengumae": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、二段ベッド×1、ソファベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 9,
+    "bedsJa": "シングルベッド×4、布団×3、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 3,
+    "status": "ok"
+   }
+  ],
+  "mimaru-suites-kyoto-central": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   }
+  ],
+  "mimaru-suites-kyoto-shijo": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×5",
+    "bedSleepers": 5,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×6",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   }
+  ],
+  "mimaru-suites-tokyo-asakusa": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-suites-tokyo-nihombashi": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、ロフトベッド×2、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   }
+  ],
+  "mimaru-tokyo-station-east": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-8",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-9",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-10",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-11",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-12",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×8",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-ueno-east": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×6、布団×2",
+    "bedSleepers": 6,
+    "otherSleepers": 2,
+    "status": "ok"
+   }
+  ],
+  "mimaru-ueno-inaricho": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 12,
+    "bedsJa": "シングルベッド×6、布団×4、ソファベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 6,
+    "status": "ok"
+   }
+  ],
+  "mimaru-ueno-north": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、二段ベッド×1",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "mimaru-ueno-okachimachi": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、布団×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×6",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×6、二段ベッド×1",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×6、二段ベッド×1",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "minn-akihabara": [
+   {
+    "id": "room-0",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、ソファベッド×1、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×1、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×1、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×1、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   }
+  ],
+  "minn-asakusa": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、布団×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 8,
+    "bedsJa": "ダブルベッド×3、布団×2",
+    "bedSleepers": 6,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "セミダブルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 8,
+    "bedsJa": "ダブルベッド×3、布団×2",
+    "bedSleepers": 6,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×4、布団×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   }
+  ],
+  "minn-chitose": [
+   {
+    "id": "room-0",
+    "capacity": 12,
+    "bedsJa": "ダブルベッド×6",
+    "bedSleepers": 12,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 8,
+    "bedsJa": "ダブルベッド×4",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、シングルベッド×1",
+    "bedSleepers": 5,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "minn-gion": [
+   {
+    "id": "room-0",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、ソファベッド×2、布団×1",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 3,
+    "bedsJa": "シングルベッド×2、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   }
+  ],
+  "minn-gion-kamogawa": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、ソファベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 4,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×3、ソファベッド×3",
+    "bedSleepers": 3,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、ソファベッド×2、布団×1",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、ソファベッド×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 3,
+    "bedsJa": "シングルベッド×2、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 3,
+    "bedsJa": "シングルベッド×2、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 3,
+    "bedsJa": "シングルベッド×2、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-8",
+    "capacity": 2,
+    "bedsJa": "シングルベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-9",
+    "capacity": 3,
+    "bedsJa": "シングルベッド×2、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   }
+  ],
+  "minn-gion-sanjo": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、ソファベッド×1、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 4,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、ソファベッド×1、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 4,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×3、布団×2",
+    "bedSleepers": 3,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 3,
+    "bedsJa": "シングルベッド×2、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-8",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-9",
+    "capacity": 3,
+    "bedsJa": "シングルベッド×2、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   }
+  ],
+  "minn-juso": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、ソファベッド×2、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×2、シングルロフトベッド×2、ソファベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×3、ソファベッド×1",
+    "bedSleepers": 3,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 5,
+    "bedsJa": "セミダブルベッド×2、ソファベッド×1、二段ベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 3,
+    "bedsJa": "ダブルベッド×1、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 3,
+    "bedsJa": "シングルベッド×2、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   }
+  ],
+  "minn-kamata": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×6",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 7,
+    "bedsJa": "ダブルベッド×4",
+    "bedSleepers": 8,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×3",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 3,
+    "bedsJa": "ダブルベッド×1、シングルベッド×1",
+    "bedSleepers": 3,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 2,
+    "bedsJa": "ダブルベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "minn-kappabashi": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、ソファベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×1、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   }
+  ],
+  "minn-karasuma-gojo": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、ソファベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 4,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、ソファベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 4,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、クイーンベッド×1、布団×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、ソファベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 4,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、クイーンベッド×1、ソファベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、ソファベッド×1、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、ソファベッド×3",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-8",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、ソファベッド×1、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-9",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-10",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-11",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-12",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×1、ダブルベッド×1、ソファベッド×1",
+    "bedSleepers": 3,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-13",
+    "capacity": 3,
+    "bedsJa": "シングルベッド×2、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   }
+  ],
+  "minn-kawaramachi-gojo": [
+   {
+    "id": "room-0",
+    "capacity": 7,
+    "bedsJa": "ダブルベッド×2、ソファベッド×3",
+    "bedSleepers": 4,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、ソファベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、ソファベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、ソファベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   }
+  ],
+  "minn-kiyomizu-gojo": [
+   {
+    "id": "room-0",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、ソファベッド×1、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 3,
+    "bedsJa": "シングルベッド×2、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 3,
+    "bedsJa": "シングルベッド×2、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 3,
+    "bedsJa": "シングルベッド×2、布団×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 3,
+    "bedsJa": "シングルベッド×2、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   }
+  ],
+  "minn-kuramae-north": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×3",
+    "bedSleepers": 6,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、ソファベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ダブルベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ダブルベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "二段ベッド(シングルベッド×2、ダブルベッド×1 )",
+    "status": "ambiguous"
+   },
+   {
+    "id": "room-6",
+    "capacity": 4,
+    "bedsJa": "二段ベッド×1(シングルベッド×1、ダブルベッド×1 )、ソファベッド×1",
+    "status": "ambiguous"
+   },
+   {
+    "id": "room-7",
+    "capacity": 4,
+    "bedsJa": "二段ベッド(シングルベッド×2、ダブルベッド×1 )",
+    "status": "ambiguous"
+   },
+   {
+    "id": "room-8",
+    "capacity": 2,
+    "bedsJa": "ダブルベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "minn-namba-nipponbashi": [
+   {
+    "id": "room-0",
+    "capacity": 7,
+    "bedsJa": "ダブルベッド×2、ソファベッド×3",
+    "bedSleepers": 4,
+    "otherSleepers": 3,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 8,
+    "bedsJa": "ダブルベッド×2、シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×2、シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×2、ソファベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×3、ソファベッド×2",
+    "bedSleepers": 3,
+    "otherSleepers": 2,
+    "status": "ok"
+   }
+  ],
+  "minn-nihonbashi": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×2、ソファベッド×1、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 4,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×1、二段ベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   }
+  ],
+  "minn-okuasakusa": [
+   {
+    "id": "room-0",
+    "capacity": 8,
+    "bedsJa": "シングルベッド×2、ダブルベッド×2、ソファベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 9,
+    "bedsJa": "ダブルベッド×4、布団×1",
+    "bedSleepers": 8,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、ダブルベッド×1、ソファベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×4、布団×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   }
+  ],
+  "minn-shijo-omiya": [
+   {
+    "id": "room-0",
+    "capacity": 7,
+    "bedsJa": "シングルベッド×2、ソファベッド×2、布団×3",
+    "bedSleepers": 2,
+    "otherSleepers": 5,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 3,
+    "bedsJa": "シングルベッド×2、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 2,
+    "bedsJa": "クイーンベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ],
+  "minn-shin-osaka": [
+   {
+    "id": "room-0",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×4",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 5,
+    "bedsJa": "シングルベッド×2、ソファベッド×1、二段ベッド×1、布団×1",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×1、布団×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 3,
+    "bedsJa": "ダブルベッド×1、布団×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   }
+  ],
+  "minn-ueno": [
+   {
+    "id": "room-0",
+    "capacity": 8,
+    "bedsJa": "クイーンベッド×1、シングルベッド×4、ソファベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "クイーンベッド×1、シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 4,
+    "bedsJa": "キングベッド×1、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 8,
+    "bedsJa": "ダブルベッド×2、シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 6,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-5",
+    "capacity": 4,
+    "bedsJa": "クイーンベッド×1、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-6",
+    "capacity": 6,
+    "bedsJa": "シングルベッド×4、ソファベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-7",
+    "capacity": 4,
+    "bedsJa": "シングルベッド×2、ソファベッド×2",
+    "bedSleepers": 2,
+    "otherSleepers": 2,
+    "status": "ok"
+   }
+  ],
+  "minn-ueno-iriya": [
+   {
+    "id": "room-0",
+    "capacity": 8,
+    "bedsJa": "二段ベッド×2 (クイーンベッド、シングルベッド)、ソファベッド×2",
+    "status": "ambiguous"
+   },
+   {
+    "id": "room-1",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×2、ソファベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 7,
+    "bedsJa": "二段ベッド×2 (クイーンベッド、シングルベッド)、ソファベッド×1",
+    "status": "ambiguous"
+   },
+   {
+    "id": "room-3",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×2、ソファベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-4",
+    "capacity": 5,
+    "bedsJa": "ダブルベッド×2、ソファベッド×1",
+    "bedSleepers": 4,
+    "otherSleepers": 1,
+    "status": "ok"
+   }
+  ],
+  "minn-umeda-north": [
+   {
+    "id": "room-0",
+    "capacity": 6,
+    "bedsJa": "ダブルベッド×2、ソファベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 2,
+    "status": "ok"
+   },
+   {
+    "id": "room-1",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   },
+   {
+    "id": "room-2",
+    "capacity": 3,
+    "bedsJa": "ダブルベッド×1、ソファベッド×1",
+    "bedSleepers": 2,
+    "otherSleepers": 1,
+    "status": "ok"
+   },
+   {
+    "id": "room-3",
+    "capacity": 4,
+    "bedsJa": "ダブルベッド×2",
+    "bedSleepers": 4,
+    "otherSleepers": 0,
+    "status": "ok"
+   }
+  ]
+ }
+}

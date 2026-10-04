@@ -1,0 +1,15 @@
+.gsj-beds{font:700 14px/1.65 system-ui,sans-serif;padding:10px 12px;border-radius:8px;border-left:4px solid #164c39;margin:12px 0;overflow-wrap:anywhere}
+.gsj-beds-all,.gsj-beds-badge-yes{color:#164c39;background:#e7f2eb}
+.gsj-beds-partial,.gsj-beds-gap,.gsj-beds-badge-no{color:#654400;background:#fff3d2;border-color:#ae7b11}
+.gsj-beds-check,.gsj-beds-badge-check{color:#414b47;background:#edf0ee;border-color:#78857e}
+.gsj-beds-summary{font:700 15px/1.65 system-ui,sans-serif;color:var(--green,#164c39);margin:10px 0}
+.gsj-beds-note{font:400 12px/1.7 system-ui,sans-serif;color:#59655f;margin:8px 0 20px;max-width:85ch}
+.gsj-beds-badge{display:inline-block;font:700 12px/1.5 system-ui,sans-serif;border-radius:6px;padding:4px 8px;margin-top:6px;white-space:normal}
+.gsj-beds-card{font:600 13px/1.65 system-ui,sans-serif;margin:12px 0;overflow-wrap:anywhere}
+.gsj-beds-card-yes{color:var(--green,#164c39)}
+.gsj-beds-filters{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 12px}
+.gsj-beds-filters button{font:600 14px/1.4 system-ui,sans-serif;padding:9px 16px;border:1px solid #a7cab6;border-radius:999px;color:var(--green,#164c39);background:#fff;cursor:pointer;max-width:100%;white-space:normal;text-align:left}
+.gsj-beds-filters button[aria-pressed=true]{background:var(--green,#164c39);color:#fff;border-color:var(--green,#164c39)}
+.gsj-beds-filters button:focus-visible{outline:3px solid #6d9b42;outline-offset:3px}
+tr.gsj-beds-hidden{display:none!important}
+@media(max-width:600px){.gsj-beds-summary,.gsj-beds{font-size:13px}.gsj-beds-filters button{font-size:13px;padding:8px 12px}}
