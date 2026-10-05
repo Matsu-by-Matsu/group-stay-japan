@@ -1,0 +1,21 @@
+.gsj-home-beds{padding:42px 0}
+.gsj-home-beds h2{font-size:clamp(25px,3vw,36px);letter-spacing:-.035em;margin:0 0 14px}
+.gsj-home-beds-lead{max-width:780px;margin:0 0 16px;color:var(--muted,#66736d);line-height:1.7}
+.gsj-home-beds-total{display:inline-block;max-width:100%;margin:0 0 22px;padding:12px 16px;border-radius:12px;background:#e7f2eb;color:var(--green,#164c39);font-size:16px;font-weight:700;line-height:1.6}
+.gsj-home-beds h3{margin:0 0 10px;font-size:17px;line-height:1.4}
+.gsj-home-beds-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0;padding:0;list-style:none}
+.gsj-home-beds-links a{display:block;height:100%;padding:16px 18px;border:1px solid var(--line,#dfe4df);border-radius:14px;background:#fff;color:var(--green,#164c39);font-weight:700;line-height:1.55;text-decoration:underline;overflow-wrap:anywhere}
+.gsj-home-beds-example{max-width:860px;margin:20px 0 0;line-height:1.7}
+.gsj-home-beds-note{max-width:860px;margin:10px 0 0;color:#59655f;font-size:12px;line-height:1.7}
+.gsj-home-beds-card{margin:-6px 0 14px;color:#414b47;font-size:12px;font-weight:700;line-height:1.55;overflow-wrap:anywhere}
+.gsj-home-beds-card-yes{color:var(--green,#164c39)}
+@media(max-width:850px){.gsj-home-beds-links{grid-template-columns:1fr}}
+@media(max-width:620px){.gsj-home-beds{padding:32px 0}.gsj-home-beds-total{font-size:14px}}
+.gsj-home-beds-table{max-width:860px;margin:0 0 24px;overflow-x:auto}
+.gsj-home-beds-table table{width:100%;border-collapse:collapse;background:#fff;font-size:14px;line-height:1.5}
+.gsj-home-beds-table th,.gsj-home-beds-table td{padding:9px 12px;border-bottom:1px solid var(--line,#dfe4df);text-align:left;vertical-align:top}
+.gsj-home-beds-table th{white-space:nowrap}
+.gsj-home-beds-table thead th{background:#f1f3ef;color:#4d5953;font-size:12px}
+.gsj-home-beds-table thead th:last-child{white-space:normal;min-width:9em}
+.gsj-home-beds-table td{white-space:nowrap}
+.gsj-home-beds-sum th,.gsj-home-beds-sum td{font-weight:700;border-bottom:0}
