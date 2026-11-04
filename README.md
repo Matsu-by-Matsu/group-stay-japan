@@ -10,3 +10,4 @@ Apartment hotels for groups and longer stays in Japan
 - [Tokyo group accommodation for 8 guests](https://groupstayjapan.synthx.jp/en/tokyo/hotels-for-8-guests/)
 - [Tokyo apartment hotels for longer stays](https://groupstayjapan.synthx.jp/en/tokyo/apartment-hotels-for-longer-stays/)
 
+生成のあと最後に `python scripts/apply-v10.py --date YYYY-MM-DD` を実行する。
