@@ -8,6 +8,13 @@ const ROOT = fileURLToPath(new URL('../', import.meta.url));
 export const KEY = 'a81c51a96468e9ebf43b53453bfa882c';
 const ORIGIN = 'https://groupstayjapan.synthx.jp';
 const KEY_URL = `${ORIGIN}/${KEY}.txt`;
+const annotationText = text => String(text).replaceAll('%', '%25').replaceAll('\r', '%0D').replaceAll('\n', '%0A');
+function fail(message, io) {
+  io.log(`::error::${annotationText(message)}`);
+  const error = new Error(message);
+  error.annotated = true;
+  throw error;
+}
 const git = (...args) => execFileSync('git', args, { cwd: ROOT });
 const decodeXml = s => s.replace(/&(?:amp|lt|gt|quot|apos);/g, x => ({ '&amp;': '&', '&lt;': '<', '&gt;': '>', '&quot;': '"', '&apos;': "'" })[x]);
 
@@ -52,7 +59,7 @@ export async function waitForPublished(url, expected, io) {
       io.log(`Waiting for published content: ${url} (HTTP ${response.status})`);
     } catch (error) { io.log(`Waiting for published content: ${url} (${error.message})`); }
     const remaining = deadline - io.now();
-    if (remaining <= 0) throw new Error(`Publication not confirmed within 10 minutes: ${url}`);
+    if (remaining <= 0) fail(`Publication not confirmed within 10 minutes: ${url}`, io);
     await io.sleep(Math.min(30_000, remaining));
   }
 }
@@ -61,7 +68,9 @@ export async function submit(urls, io) {
   let total = 0;
   for (let offset = 0; offset < urls.length; offset += 10_000) {
     const batch = urls.slice(offset, offset + 10_000);
-    for (let attempt = 0; attempt < 2; attempt++) {
+    let forbiddenRetries = 0;
+    let rateLimitRetries = 0;
+    while (true) {
       const response = await io.fetch('https://api.indexnow.org/indexnow', {
         method: 'POST', headers: { 'Content-Type': 'application/json; charset=utf-8' },
         body: JSON.stringify({ host: 'groupstayjapan.synthx.jp', key: KEY, keyLocation: KEY_URL, urlList: batch }),
@@ -69,10 +78,23 @@ export async function submit(urls, io) {
       });
       const body = await response.text();
       io.log(`IndexNow HTTP ${response.status}; URLs: ${batch.length}`);
-      if ([200, 202].includes(response.status)) { total += batch.length; break; }
+      if ([200, 202].includes(response.status)) {
+        io.log(`::notice::IndexNow HTTP ${response.status}; URLs: ${batch.length}`);
+        total += batch.length;
+        break;
+      }
       io.log(body);
-      if (response.status === 429 && attempt === 0) { await io.sleep(600_000); continue; }
-      throw new Error(`IndexNow failed: HTTP ${response.status}`);
+      if (response.status === 403 && forbiddenRetries < 3) {
+        forbiddenRetries++;
+        await io.sleep(120_000);
+        continue;
+      }
+      if (response.status === 429 && rateLimitRetries < 1) {
+        rateLimitRetries++;
+        await io.sleep(600_000);
+        continue;
+      }
+      fail(`IndexNow HTTP ${response.status}: ${Array.from(body).slice(0, 200).join('')}`, io);
     }
   }
   io.log(`Submitted URLs: ${total}`);
@@ -92,5 +114,8 @@ export async function main(args = process.argv.slice(2), overrides = {}) {
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
-  main().catch(error => { console.error(error.message); process.exitCode = 1; });
+  main().catch(error => {
+    if (!error.annotated) console.error(`::error::${annotationText(error.message)}`);
+    process.exitCode = 1;
+  });
 }
