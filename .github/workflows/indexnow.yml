@@ -1,0 +1,57 @@
+name: Submit changed pages to IndexNow
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      all:
+        description: Submit all sitemap URLs
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow-main
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  submit:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Submit sitemap pages or changed HTML
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          SEND_ALL: ${{ inputs.all }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          key_file='a81c51a96468e9ebf43b53453bfa882c.txt'
+          if [[ "$SEND_ALL" == 'true' ]]; then
+            node scripts/indexnow-submit.mjs --all
+          elif [[ "$EVENT_NAME" == 'push' && "$BEFORE" =~ ^0+$ ]]; then
+            node scripts/indexnow-submit.mjs --all
+          else
+            if [[ "$EVENT_NAME" == 'workflow_dispatch' ]]; then
+              BEFORE="$(git rev-parse "$AFTER^1")"
+            fi
+            added="$(git diff --no-renames --diff-filter=A --name-only "$BEFORE" "$AFTER" -- "$key_file")"
+            if [[ "$added" == "$key_file" ]]; then
+              node scripts/indexnow-submit.mjs --all
+            else
+              node scripts/indexnow-submit.mjs "$BEFORE" "$AFTER"
+            fi
+          fi
