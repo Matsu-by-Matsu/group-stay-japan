@@ -11,3 +11,5 @@ Apartment hotels for groups and longer stays in Japan
 - [Tokyo apartment hotels for longer stays](https://groupstayjapan.synthx.jp/en/tokyo/apartment-hotels-for-longer-stays/)
 
 生成のあと最後に `python scripts/apply-v10.py --date YYYY-MM-DD` を実行する。
+
+生成のあとに `python scripts/build-home-locales.py --date YYYY-MM-DD` を実行する。

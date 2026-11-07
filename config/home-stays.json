@@ -1,0 +1,740 @@
+{
+ "groups": {
+  "tokyo": {
+   "ko": "도쿄",
+   "zh": "東京"
+  },
+  "kyoto": {
+   "ko": "교토",
+   "zh": "京都"
+  },
+  "osaka": {
+   "ko": "오사카",
+   "zh": "大阪"
+  },
+  "hokkaido": {
+   "ko": "홋카이도",
+   "zh": "北海道"
+  },
+  "fukuoka": {
+   "ko": "후쿠오카",
+   "zh": "福岡"
+  },
+  "other": {
+   "ko": "그 외 지역",
+   "zh": "其他地區"
+  }
+ },
+ "order": [
+  "tokyo",
+  "kyoto",
+  "osaka",
+  "hokkaido",
+  "fukuoka",
+  "other"
+ ],
+ "stays": [
+  {
+   "slug": "fav-tokyonishinippori",
+   "name": "fav TOKYO NISHINIPPORI",
+   "group": "tokyo",
+   "area_en": "Tokyo / Arakawa",
+   "area_ko": "도쿄 / 아라카와구",
+   "area_zh": "東京 / 荒川區",
+   "max": 6
+  },
+  {
+   "slug": "mimaru-ginza-east",
+   "name": "MIMARU Ginza East",
+   "group": "tokyo",
+   "area_en": "Tokyo / Chuo",
+   "area_ko": "도쿄 / 주오구",
+   "area_zh": "東京 / 中央區",
+   "max": 6
+  },
+  {
+   "slug": "mimaru-hatchobori",
+   "name": "MIMARU Hatchobori",
+   "group": "tokyo",
+   "area_en": "Tokyo / Chuo",
+   "area_ko": "도쿄 / 주오구",
+   "area_zh": "東京 / 中央區",
+   "max": 8
+  },
+  {
+   "slug": "mimaru-suitengumae",
+   "name": "MIMARU Suitengumae",
+   "group": "tokyo",
+   "area_en": "Tokyo / Chuo",
+   "area_ko": "도쿄 / 주오구",
+   "area_zh": "東京 / 中央區",
+   "max": 9
+  },
+  {
+   "slug": "mimaru-suites-tokyo-nihombashi",
+   "name": "MIMARU Suites Tokyo Nihombashi",
+   "group": "tokyo",
+   "area_en": "Tokyo / Chuo",
+   "area_ko": "도쿄 / 주오구",
+   "area_zh": "東京 / 中央區",
+   "max": 6
+  },
+  {
+   "slug": "mimaru-tokyo-station-east",
+   "name": "MIMARU Tokyo Station East",
+   "group": "tokyo",
+   "area_en": "Tokyo / Chuo",
+   "area_ko": "도쿄 / 주오구",
+   "area_zh": "東京 / 中央區",
+   "max": 8
+  },
+  {
+   "slug": "minn-nihonbashi",
+   "name": "Minn Nihonbashi",
+   "group": "tokyo",
+   "area_en": "Tokyo / Chuo",
+   "area_ko": "도쿄 / 주오구",
+   "area_zh": "東京 / 中央區",
+   "max": 6
+  },
+  {
+   "slug": "mimaru-akasaka",
+   "name": "MIMARU Akasaka",
+   "group": "tokyo",
+   "area_en": "Tokyo / Minato",
+   "area_ko": "도쿄 / 미나토구",
+   "area_zh": "東京 / 港區",
+   "max": 8
+  },
+  {
+   "slug": "minn-kamata",
+   "name": "Minn Kamata",
+   "group": "tokyo",
+   "area_en": "Tokyo / Ota",
+   "area_ko": "도쿄 / 오타구",
+   "area_zh": "東京 / 大田區",
+   "max": 7
+  },
+  {
+   "slug": "mimaru-shinjuku-west",
+   "name": "MIMARU Shinjuku West",
+   "group": "tokyo",
+   "area_en": "Tokyo / Shinjuku",
+   "area_ko": "도쿄 / 신주쿠구",
+   "area_zh": "東京 / 新宿區",
+   "max": 6
+  },
+  {
+   "slug": "fav-tokyoryogoku",
+   "name": "fav TOKYO RYOGOKU",
+   "group": "tokyo",
+   "area_en": "Tokyo / Sumida",
+   "area_ko": "도쿄 / 스미다구",
+   "area_zh": "東京 / 墨田區",
+   "max": 6
+  },
+  {
+   "slug": "mimaru-kinshicho",
+   "name": "MIMARU Kinshicho",
+   "group": "tokyo",
+   "area_en": "Tokyo / Sumida",
+   "area_ko": "도쿄 / 스미다구",
+   "area_zh": "東京 / 墨田區",
+   "max": 6
+  },
+  {
+   "slug": "mimaru-asakusa-station",
+   "name": "MIMARU Asakusa Station",
+   "group": "tokyo",
+   "area_en": "Tokyo / Taito",
+   "area_ko": "도쿄 / 다이토구",
+   "area_zh": "東京 / 台東區",
+   "max": 8
+  },
+  {
+   "slug": "mimaru-suites-tokyo-asakusa",
+   "name": "MIMARU Suites Tokyo Asakusa",
+   "group": "tokyo",
+   "area_en": "Tokyo / Taito",
+   "area_ko": "도쿄 / 다이토구",
+   "area_zh": "東京 / 台東區",
+   "max": 6
+  },
+  {
+   "slug": "mimaru-ueno-east",
+   "name": "MIMARU Ueno East",
+   "group": "tokyo",
+   "area_en": "Tokyo / Taito",
+   "area_ko": "도쿄 / 다이토구",
+   "area_zh": "東京 / 台東區",
+   "max": 8
+  },
+  {
+   "slug": "mimaru-ueno-inaricho",
+   "name": "MIMARU Ueno Inaricho",
+   "group": "tokyo",
+   "area_en": "Tokyo / Taito",
+   "area_ko": "도쿄 / 다이토구",
+   "area_zh": "東京 / 台東區",
+   "max": 4
+  },
+  {
+   "slug": "mimaru-ueno-north",
+   "name": "MIMARU Ueno North",
+   "group": "tokyo",
+   "area_en": "Tokyo / Taito",
+   "area_ko": "도쿄 / 다이토구",
+   "area_zh": "東京 / 台東區",
+   "max": 6
+  },
+  {
+   "slug": "mimaru-ueno-okachimachi",
+   "name": "MIMARU Ueno Okachimachi",
+   "group": "tokyo",
+   "area_en": "Tokyo / Taito",
+   "area_ko": "도쿄 / 다이토구",
+   "area_zh": "東京 / 台東區",
+   "max": 8
+  },
+  {
+   "slug": "minn-akihabara",
+   "name": "Minn Akihabara",
+   "group": "tokyo",
+   "area_en": "Tokyo / Taito",
+   "area_ko": "도쿄 / 다이토구",
+   "area_zh": "東京 / 台東區",
+   "max": 5
+  },
+  {
+   "slug": "minn-asakusa",
+   "name": "Minn Asakusa",
+   "group": "tokyo",
+   "area_en": "Tokyo / Taito",
+   "area_ko": "도쿄 / 다이토구",
+   "area_zh": "東京 / 台東區",
+   "max": 8
+  },
+  {
+   "slug": "minn-kappabashi",
+   "name": "Minn Asakusa Kappabashi",
+   "group": "tokyo",
+   "area_en": "Tokyo / Taito",
+   "area_ko": "도쿄 / 다이토구",
+   "area_zh": "東京 / 台東區",
+   "max": 6
+  },
+  {
+   "slug": "minn-kuramae-north",
+   "name": "Minn Asakusa Kuramae North",
+   "group": "tokyo",
+   "area_en": "Tokyo / Taito",
+   "area_ko": "도쿄 / 다이토구",
+   "area_zh": "東京 / 台東區",
+   "max": 6
+  },
+  {
+   "slug": "minn-okuasakusa",
+   "name": "Minn Oku Asakusa",
+   "group": "tokyo",
+   "area_en": "Tokyo / Taito",
+   "area_ko": "도쿄 / 다이토구",
+   "area_zh": "東京 / 台東區",
+   "max": 9
+  },
+  {
+   "slug": "minn-ueno",
+   "name": "Minn Ueno",
+   "group": "tokyo",
+   "area_en": "Tokyo / Taito",
+   "area_ko": "도쿄 / 다이토구",
+   "area_zh": "東京 / 台東區",
+   "max": 8
+  },
+  {
+   "slug": "minn-ueno-iriya",
+   "name": "Minn Ueno Iriya",
+   "group": "tokyo",
+   "area_en": "Tokyo / Taito",
+   "area_ko": "도쿄 / 다이토구",
+   "area_zh": "東京 / 台東區",
+   "max": 8
+  },
+  {
+   "slug": "mimaru-ikebukuro",
+   "name": "MIMARU Ikebukuro",
+   "group": "tokyo",
+   "area_en": "Tokyo / Toshima",
+   "area_ko": "도쿄 / 도시마구",
+   "area_zh": "東京 / 豐島區",
+   "max": 8
+  },
+  {
+   "slug": "minn-gion",
+   "name": "Minn Gion",
+   "group": "kyoto",
+   "area_en": "Kyoto / Higashiyama",
+   "area_ko": "교토 / 히가시야마구",
+   "area_zh": "京都 / 東山區",
+   "max": 5
+  },
+  {
+   "slug": "minn-gion-kamogawa",
+   "name": "Minn Gion Kamogawa",
+   "group": "kyoto",
+   "area_en": "Kyoto / Higashiyama",
+   "area_ko": "교토 / 히가시야마구",
+   "area_zh": "京都 / 東山區",
+   "max": 6
+  },
+  {
+   "slug": "minn-gion-sanjo",
+   "name": "Minn Gion Sanjo",
+   "group": "kyoto",
+   "area_en": "Kyoto / Higashiyama",
+   "area_ko": "교토 / 히가시야마구",
+   "area_zh": "京都 / 東山區",
+   "max": 6
+  },
+  {
+   "slug": "minn-kawaramachi-gojo",
+   "name": "Minn Kawaramachi Gojo Riverside",
+   "group": "kyoto",
+   "area_en": "Kyoto / Higashiyama",
+   "area_ko": "교토 / 히가시야마구",
+   "area_zh": "京都 / 東山區",
+   "max": 7
+  },
+  {
+   "slug": "minn-kiyomizu-gojo",
+   "name": "Minn Kiyomizu Gojo",
+   "group": "kyoto",
+   "area_en": "Kyoto / Higashiyama",
+   "area_ko": "교토 / 히가시야마구",
+   "area_zh": "京都 / 東山區",
+   "max": 5
+  },
+  {
+   "slug": "mimaru-kyoto-station",
+   "name": "MIMARU Kyoto Station",
+   "group": "kyoto",
+   "area_en": "Kyoto / Minami",
+   "area_ko": "교토 / 미나미구",
+   "area_zh": "京都 / 南區",
+   "max": 8
+  },
+  {
+   "slug": "mimaru-nijo-castle",
+   "name": "MIMARU Nijo Castle",
+   "group": "kyoto",
+   "area_en": "Kyoto / Nakagyo",
+   "area_ko": "교토 / 나카교구",
+   "area_zh": "京都 / 中京區",
+   "max": 10
+  },
+  {
+   "slug": "mimaru-shinmachi-sanjo",
+   "name": "MIMARU Shinmachi Sanjo",
+   "group": "kyoto",
+   "area_en": "Kyoto / Nakagyo",
+   "area_ko": "교토 / 나카교구",
+   "area_zh": "京都 / 中京區",
+   "max": 8
+  },
+  {
+   "slug": "mimaru-suites-kyoto-central",
+   "name": "MIMARU Suites Kyoto Central",
+   "group": "kyoto",
+   "area_en": "Kyoto / Nakagyo",
+   "area_ko": "교토 / 나카교구",
+   "area_zh": "京都 / 中京區",
+   "max": 6
+  },
+  {
+   "slug": "minn-shijo-omiya",
+   "name": "Minn Shijo Omiya",
+   "group": "kyoto",
+   "area_en": "Kyoto / Nakagyo",
+   "area_ko": "교토 / 나카교구",
+   "area_zh": "京都 / 中京區",
+   "max": 7
+  },
+  {
+   "slug": "mimaru-kawaramachi-gojo",
+   "name": "MIMARU Kawaramachi Gojo",
+   "group": "kyoto",
+   "area_en": "Kyoto / Shimogyo",
+   "area_ko": "교토 / 시모교구",
+   "area_zh": "京都 / 下京區",
+   "max": 8
+  },
+  {
+   "slug": "mimaru-shijo-west",
+   "name": "MIMARU Shijo West",
+   "group": "kyoto",
+   "area_en": "Kyoto / Shimogyo",
+   "area_ko": "교토 / 시모교구",
+   "area_zh": "京都 / 下京區",
+   "max": 6
+  },
+  {
+   "slug": "mimaru-suites-kyoto-shijo",
+   "name": "MIMARU Suites Kyoto Shijo",
+   "group": "kyoto",
+   "area_en": "Kyoto / Shimogyo",
+   "area_ko": "교토 / 시모교구",
+   "area_zh": "京都 / 下京區",
+   "max": 6
+  },
+  {
+   "slug": "minn-karasuma-gojo",
+   "name": "Minn Karasuma Gojo Kyoto Station North",
+   "group": "kyoto",
+   "area_en": "Kyoto / Shimogyo",
+   "area_ko": "교토 / 시모교구",
+   "area_zh": "京都 / 下京區",
+   "max": 6
+  },
+  {
+   "slug": "mimaru-shinsaibashi-east",
+   "name": "MIMARU Shinsaibashi East",
+   "group": "osaka",
+   "area_en": "Osaka / Chuo",
+   "area_ko": "오사카 / 주오구",
+   "area_zh": "大阪 / 中央區",
+   "max": 7
+  },
+  {
+   "slug": "mimaru-shinsaibashi-north",
+   "name": "MIMARU Shinsaibashi North",
+   "group": "osaka",
+   "area_en": "Osaka / Chuo",
+   "area_ko": "오사카 / 주오구",
+   "area_zh": "大阪 / 中央區",
+   "max": 8
+  },
+  {
+   "slug": "minn-umeda-north",
+   "name": "Minn Umeda North",
+   "group": "osaka",
+   "area_en": "Osaka / Fukushima",
+   "area_ko": "오사카 / 후쿠시마구",
+   "area_zh": "大阪 / 福島區",
+   "max": 6
+  },
+  {
+   "slug": "minn-shin-osaka",
+   "name": "Minn Shin-Osaka",
+   "group": "osaka",
+   "area_en": "Osaka / Higashiyodogawa",
+   "area_ko": "오사카 / 히가시요도가와구",
+   "area_zh": "大阪 / 東淀川區",
+   "max": 5
+  },
+  {
+   "slug": "mimaru-namba-station",
+   "name": "MIMARU Namba Station",
+   "group": "osaka",
+   "area_en": "Osaka / Naniwa",
+   "area_ko": "오사카 / 나니와구",
+   "area_zh": "大阪 / 浪速區",
+   "max": 6
+  },
+  {
+   "slug": "minn-namba-nipponbashi",
+   "name": "Minn Namba Nipponbashi",
+   "group": "osaka",
+   "area_en": "Osaka / Naniwa",
+   "area_ko": "오사카 / 나니와구",
+   "area_zh": "大阪 / 浪速區",
+   "max": 8
+  },
+  {
+   "slug": "mimaru-namba-north",
+   "name": "MIMARU Namba North",
+   "group": "osaka",
+   "area_en": "Osaka / Nishi",
+   "area_ko": "오사카 / 니시구",
+   "area_zh": "大阪 / 西區",
+   "max": 4
+  },
+  {
+   "slug": "mimaru-shinsaibashi-west",
+   "name": "MIMARU Shinsaibashi West",
+   "group": "osaka",
+   "area_en": "Osaka / Nishi",
+   "area_ko": "오사카 / 니시구",
+   "area_zh": "大阪 / 西區",
+   "max": 9
+  },
+  {
+   "slug": "minn-juso",
+   "name": "Minn Juso",
+   "group": "osaka",
+   "area_en": "Osaka / Yodogawa",
+   "area_ko": "오사카 / 요도가와구",
+   "area_zh": "大阪 / 淀川區",
+   "max": 6
+  },
+  {
+   "slug": "minn-chitose",
+   "name": "Minn Chitose",
+   "group": "hokkaido",
+   "area_en": "Chitose",
+   "area_ko": "치토세",
+   "area_zh": "千歲",
+   "max": 12
+  },
+  {
+   "slug": "fav-hakodate",
+   "name": "fav HAKODATE",
+   "group": "hokkaido",
+   "area_en": "Hakodate",
+   "area_ko": "하코다테",
+   "area_zh": "函館",
+   "max": 6
+  },
+  {
+   "slug": "fav-lux-sapporosusukino",
+   "name": "FAV LUX SAPPORO SUSUKINO",
+   "group": "hokkaido",
+   "area_en": "Sapporo / Chuo",
+   "area_ko": "삿포로 / 주오구",
+   "area_zh": "札幌 / 中央區",
+   "max": 6
+  },
+  {
+   "slug": "grand-base-gb-yakuinodori",
+   "name": "GRAND BASE YAKUIN ODORI",
+   "group": "fukuoka",
+   "area_en": "Fukuoka / Chuo",
+   "area_ko": "후쿠오카 / 주오구",
+   "area_zh": "福岡 / 中央區",
+   "max": 6
+  },
+  {
+   "slug": "grand-base-gb-crane",
+   "name": "GRAND BASE Crane",
+   "group": "fukuoka",
+   "area_en": "Fukuoka / Hakata",
+   "area_ko": "후쿠오카 / 하카타구",
+   "area_zh": "福岡 / 博多區",
+   "max": 9
+  },
+  {
+   "slug": "grand-base-gb-hakatabay",
+   "name": "GRAND BASE HAKATA BAY",
+   "group": "fukuoka",
+   "area_en": "Fukuoka / Hakata",
+   "area_ko": "후쿠오카 / 하카타구",
+   "area_zh": "福岡 / 博多區",
+   "max": 8
+  },
+  {
+   "slug": "grand-base-gb-mojinagomi",
+   "name": "GRAND BASE MOJI NAGOMI",
+   "group": "fukuoka",
+   "area_en": "Kitakyushu / Moji",
+   "area_ko": "기타큐슈 / 모지구",
+   "area_zh": "北九州 / 門司區",
+   "max": 8
+  },
+  {
+   "slug": "grand-base-gb-mojiko",
+   "name": "GRAND BASE Mojiko",
+   "group": "fukuoka",
+   "area_en": "Kitakyushu / Moji",
+   "area_ko": "기타큐슈 / 모지구",
+   "area_zh": "北九州 / 門司區",
+   "max": 8
+  },
+  {
+   "slug": "grand-base-gb-beppueki",
+   "name": "GRAND BASE BEPPU EKI",
+   "group": "other",
+   "area_en": "Beppu",
+   "area_ko": "벳푸",
+   "area_zh": "別府",
+   "max": 7
+  },
+  {
+   "slug": "grand-base-gb-beppuekihigashi",
+   "name": "GRAND BASE BEPPU EKI HIGASHI",
+   "group": "other",
+   "area_en": "Beppu",
+   "area_ko": "벳푸",
+   "area_zh": "別府",
+   "max": 6
+  },
+  {
+   "slug": "grand-base-gb-beppuekimae",
+   "name": "GRAND BASE BEPPU EKIMAE",
+   "group": "other",
+   "area_en": "Beppu",
+   "area_ko": "벳푸",
+   "area_zh": "別府",
+   "max": 6
+  },
+  {
+   "slug": "grand-base-gb-hiroshimaekimae",
+   "name": "GRAND BASE HIROSHIMA EKIMAE",
+   "group": "other",
+   "area_en": "Hiroshima / Higashi",
+   "area_ko": "히로시마 / 히가시구",
+   "area_zh": "廣島 / 東區",
+   "max": 5
+  },
+  {
+   "slug": "fav-hiroshima-stadium",
+   "name": "fav HIROSHIMA STADIUM",
+   "group": "other",
+   "area_en": "Hiroshima / Minami",
+   "area_ko": "히로시마 / 미나미구",
+   "area_zh": "廣島 / 南區",
+   "max": 6
+  },
+  {
+   "slug": "fav-hiroshimaheiwaodori",
+   "name": "fav HIROSHIMA HEIWAODORI",
+   "group": "other",
+   "area_en": "Hiroshima / Naka",
+   "area_ko": "히로시마 / 나카구",
+   "area_zh": "廣島 / 中區",
+   "max": 6
+  },
+  {
+   "slug": "fav-ise",
+   "name": "fav ISE",
+   "group": "other",
+   "area_en": "Ise",
+   "area_ko": "이세",
+   "area_zh": "伊勢",
+   "max": 4
+  },
+  {
+   "slug": "fav-kagoshimachuo",
+   "name": "fav KAGOSHIMA CHUO",
+   "group": "other",
+   "area_en": "Kagoshima",
+   "area_ko": "가고시마",
+   "area_zh": "鹿兒島",
+   "max": 6
+  },
+  {
+   "slug": "fav-lux-kagoshimatenmonkan",
+   "name": "FAV LUX KAGOSHIMA TENMONKAN",
+   "group": "other",
+   "area_en": "Kagoshima",
+   "area_ko": "가고시마",
+   "area_zh": "鹿兒島",
+   "max": 6
+  },
+  {
+   "slug": "grand-base-gb-kagoshima-tenmonkan",
+   "name": "GRAND BASE Kagoshima Tenmonkan",
+   "group": "other",
+   "area_en": "Kagoshima",
+   "area_ko": "가고시마",
+   "area_zh": "鹿兒島",
+   "max": 10
+  },
+  {
+   "slug": "grand-base-gb-karatsuekiminami",
+   "name": "GRAND BASE KARATSU EKIMINAMI",
+   "group": "other",
+   "area_en": "Karatsu",
+   "area_ko": "가라쓰",
+   "area_zh": "唐津",
+   "max": 4
+  },
+  {
+   "slug": "fav-kumamoto",
+   "name": "fav KUMAMOTO",
+   "group": "other",
+   "area_en": "Kumamoto / Chuo",
+   "area_ko": "구마모토 / 주오구",
+   "area_zh": "熊本 / 中央區",
+   "max": 6
+  },
+  {
+   "slug": "grand-base-gb-kurashikichuo",
+   "name": "GRAND BASE KURASHIKI CHUO",
+   "group": "other",
+   "area_en": "Kurashiki",
+   "area_ko": "구라시키",
+   "area_zh": "倉敷",
+   "max": 5
+  },
+  {
+   "slug": "fav-lux-miyazaki",
+   "name": "FAV LUX MIYAZAKI",
+   "group": "other",
+   "area_en": "Miyazaki",
+   "area_ko": "미야자키",
+   "area_zh": "宮崎",
+   "max": 6
+  },
+  {
+   "slug": "fav-lux-nagasaki",
+   "name": "FAV LUX NAGASAKI",
+   "group": "other",
+   "area_en": "Nagasaki",
+   "area_ko": "나가사키",
+   "area_zh": "長崎",
+   "max": 8
+  },
+  {
+   "slug": "grand-base-nagasaki-nakamachi",
+   "name": "GRAND BASE Nagasaki Nakamachi",
+   "group": "other",
+   "area_en": "Nagasaki",
+   "area_ko": "나가사키",
+   "area_zh": "長崎",
+   "max": 10
+  },
+  {
+   "slug": "grand-base-gb-osu",
+   "name": "GRAND BASE Osu",
+   "group": "other",
+   "area_en": "Nagoya / Naka",
+   "area_ko": "나고야 / 나카구",
+   "area_zh": "名古屋 / 中區",
+   "max": 8
+  },
+  {
+   "slug": "grand-base-gb-okayamaekimae",
+   "name": "GRAND BASE OKAYAMA EKIMAE",
+   "group": "other",
+   "area_en": "Okayama / Kita",
+   "area_ko": "오카야마 / 기타구",
+   "area_zh": "岡山 / 北區",
+   "max": 6
+  },
+  {
+   "slug": "fav-takamatsu",
+   "name": "fav TAKAMATSU",
+   "group": "other",
+   "area_en": "Takamatsu",
+   "area_ko": "다카마쓰",
+   "area_zh": "高松",
+   "max": 6
+  },
+  {
+   "slug": "fav-lux-hidatakayama",
+   "name": "FAV LUX HIDA TAKAYAMA",
+   "group": "other",
+   "area_en": "Takayama",
+   "area_ko": "다카야마",
+   "area_zh": "高山",
+   "max": 8
+  },
+  {
+   "slug": "fav-takayama",
+   "name": "fav TAKAYAMA",
+   "group": "other",
+   "area_en": "Takayama",
+   "area_ko": "다카야마",
+   "area_zh": "高山",
+   "max": 6
+  }
+ ]
+}
