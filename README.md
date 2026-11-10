@@ -13,3 +13,5 @@ Apartment hotels for groups and longer stays in Japan
 生成のあと最後に `python scripts/apply-v10.py --date YYYY-MM-DD` を実行する。
 
 生成のあとに `python scripts/build-home-locales.py --date YYYY-MM-DD` を実行する。
+
+scripts/build-city-pages.py — 大阪・京都・福岡の都市ページ（en/ko/zh-tw）を config/city-rooms.json と config/city-pages.json から作る。施設ページのパンくず・トップのリンク・サイトマップも直す

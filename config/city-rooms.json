@@ -1,0 +1,6025 @@
+{
+ "source": "Facility pages (en, ko, zh-TW) and config/bed-sleepers.json in the repository, read on 2026-11-09",
+ "properties": [
+  {
+   "id": "grand-base-gb-crane",
+   "city": "fukuoka",
+   "name": "GRAND BASE Crane",
+   "brand": "GRAND BASE",
+   "area": {
+    "en": "Fukuoka / Hakata",
+    "ko": "후쿠오카 / 하카타구",
+    "zh-TW": "福岡 / 博多區"
+   },
+   "photo": "https://grand-base.jp/grandbase/wp-content/uploads/2020/09/crane_101-2-scaled.jpg",
+   "roomTypes": 2,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Standard A (37 m²)",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "37.0 m²",
+     "sizeM2": 37.0,
+     "beds": {
+      "en": "2 double beds, 1 single bed",
+      "ko": "더블 침대 2개, 싱글 침대 1개",
+      "zh-TW": "2張雙人床、1張單人床"
+     },
+     "bedSleepers": 5,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "bathroom",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Superior B (41 m²)",
+     "capacity": 9,
+     "adults": false,
+     "capacityText": {
+      "en": "9 guests",
+      "ko": "9명",
+      "zh-TW": "9名住客"
+     },
+     "size": "41.0 m²",
+     "sizeM2": 41.0,
+     "beds": {
+      "en": "3 double beds, 3 single beds",
+      "ko": "더블 침대 3개, 싱글 침대 3개",
+      "zh-TW": "3張雙人床、3張單人床"
+     },
+     "bedSleepers": 9,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "bathroom",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "grand-base-gb-hakatabay",
+   "city": "fukuoka",
+   "name": "GRAND BASE HAKATA BAY",
+   "brand": "GRAND BASE",
+   "area": {
+    "en": "Fukuoka / Hakata",
+    "ko": "후쿠오카 / 하카타구",
+    "zh-TW": "福岡 / 博多區"
+   },
+   "photo": "https://grand-base.jp/grandbase/wp-content/uploads/2020/10/P1300651-scaled.jpg",
+   "roomTypes": 3,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Basic A (26 m²)",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "26.0 m²",
+     "sizeM2": 26.0,
+     "beds": {
+      "en": "2 double beds",
+      "ko": "더블 침대 2개",
+      "zh-TW": "2張雙人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Standard B (28 m²)",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "28.0 m²",
+     "sizeM2": 28.0,
+     "beds": {
+      "en": "2 double beds",
+      "ko": "더블 침대 2개",
+      "zh-TW": "2張雙人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Suite C (49 m²)",
+     "capacity": 8,
+     "adults": false,
+     "capacityText": {
+      "en": "8 guests",
+      "ko": "8명",
+      "zh-TW": "8名住客"
+     },
+     "size": "49.0 m²",
+     "sizeM2": 49.0,
+     "beds": {
+      "en": "8 single beds",
+      "ko": "싱글 침대 8개",
+      "zh-TW": "8張單人床"
+     },
+     "bedSleepers": 8,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "grand-base-gb-mojiko",
+   "city": "fukuoka",
+   "name": "GRAND BASE Mojiko",
+   "brand": "GRAND BASE",
+   "area": {
+    "en": "Kitakyushu / Moji",
+    "ko": "기타큐슈 / 모지구",
+    "zh-TW": "北九州 / 門司區"
+   },
+   "photo": "https://grand-base.jp/grandbase/wp-content/uploads/2020/10/room101-1-1-scaled.jpg",
+   "roomTypes": 4,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Executive A (60 m²)",
+     "capacity": 8,
+     "adults": false,
+     "capacityText": {
+      "en": "8 guests",
+      "ko": "8명",
+      "zh-TW": "8名住客"
+     },
+     "size": "60.0 m²",
+     "sizeM2": 60.0,
+     "beds": {
+      "en": "4 double beds",
+      "ko": "더블 침대 4개",
+      "zh-TW": "4張雙人床"
+     },
+     "bedSleepers": 8,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "bathroom",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Standard B (34 m²)",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "34.0 m²",
+     "sizeM2": 34.0,
+     "beds": {
+      "en": "2 double beds",
+      "ko": "더블 침대 2개",
+      "zh-TW": "2張雙人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "bathroom",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Basic C (28 m²)",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "28.0 m²",
+     "sizeM2": 28.0,
+     "beds": {
+      "en": "2 double beds",
+      "ko": "더블 침대 2개",
+      "zh-TW": "2張雙人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "bathroom",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Superior D (37 m²)",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "37.0 m²",
+     "sizeM2": 37.0,
+     "beds": {
+      "en": "2 double beds",
+      "ko": "더블 침대 2개",
+      "zh-TW": "2張雙人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "bathroom",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "grand-base-gb-mojinagomi",
+   "city": "fukuoka",
+   "name": "GRAND BASE MOJI NAGOMI",
+   "brand": "GRAND BASE",
+   "area": {
+    "en": "Kitakyushu / Moji",
+    "ko": "기타큐슈 / 모지구",
+    "zh-TW": "北九州 / 門司區"
+   },
+   "photo": "https://grand-base.jp/grandbase/wp-content/uploads/2020/10/%E9%96%80%E5%8F%B8%E5%92%8C%E3%80%80102-7jiji-scaled.jpg",
+   "roomTypes": 7,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Standard A with Bluetooth speaker (31 m²)",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "31.0 m²",
+     "sizeM2": 31.0,
+     "beds": {
+      "en": "2 double beds",
+      "ko": "더블 침대 2개",
+      "zh-TW": "2張雙人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Superior B with sofa bed and Bluetooth speaker (36 m²)",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "36.0 m²",
+     "sizeM2": 36.0,
+     "beds": {
+      "en": "2 double beds, 1 sofa bed",
+      "ko": "더블 침대 2개, 소파베드 1개",
+      "zh-TW": "2張雙人床、1張沙發床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Deluxe C with sofa bed and Bluetooth speaker (44 m²)",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "44.0 m²",
+     "sizeM2": 44.0,
+     "beds": {
+      "en": "2 double beds, 1 sofa bed",
+      "ko": "더블 침대 2개, 소파베드 1개",
+      "zh-TW": "2張雙人床、1張沙發床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Theater Deluxe D (45 m²)",
+     "capacity": 8,
+     "adults": false,
+     "capacityText": {
+      "en": "8 guests",
+      "ko": "8명",
+      "zh-TW": "8名住客"
+     },
+     "size": "45.0 m²",
+     "sizeM2": 45.0,
+     "beds": {
+      "en": "4 double beds",
+      "ko": "더블 침대 4개",
+      "zh-TW": "4張雙人床"
+     },
+     "bedSleepers": 8,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-4",
+     "nameEn": "Theater Twin E (31 m²)",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "31.0 m²",
+     "sizeM2": 31.0,
+     "beds": {
+      "en": "2 double beds",
+      "ko": "더블 침대 2개",
+      "zh-TW": "2張雙人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-5",
+     "nameEn": "Theater Twin F with sofa bed (31 m²)",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "31.0 m²",
+     "sizeM2": 31.0,
+     "beds": {
+      "en": "2 double beds, 1 sofa bed",
+      "ko": "더블 침대 2개, 소파베드 1개",
+      "zh-TW": "2張雙人床、1張沙發床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-6",
+     "nameEn": "Grand Four G with Bluetooth speaker (44 m²)",
+     "capacity": 7,
+     "adults": false,
+     "capacityText": {
+      "en": "7 guests",
+      "ko": "7명",
+      "zh-TW": "7名住客"
+     },
+     "size": "44.0 m²",
+     "sizeM2": 44.0,
+     "beds": {
+      "en": "3 double beds, 1 single bed",
+      "ko": "더블 침대 3개, 싱글 침대 1개",
+      "zh-TW": "3張雙人床、1張單人床"
+     },
+     "bedSleepers": 7,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "grand-base-gb-yakuinodori",
+   "city": "fukuoka",
+   "name": "GRAND BASE YAKUIN ODORI",
+   "brand": "GRAND BASE",
+   "area": {
+    "en": "Fukuoka / Chuo",
+    "ko": "후쿠오카 / 주오구",
+    "zh-TW": "福岡 / 中央區"
+   },
+   "photo": "https://grand-base.jp/grandbase/wp-content/uploads/2020/09/302_402-1-scaled.jpg",
+   "roomTypes": 3,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Standard A (23 m²)",
+     "capacity": 2,
+     "adults": false,
+     "capacityText": {
+      "en": "2 guests",
+      "ko": "2명",
+      "zh-TW": "2名住客"
+     },
+     "size": "23.0 m²",
+     "sizeM2": 23.0,
+     "beds": {
+      "en": "1 double bed",
+      "ko": "더블 침대 1개",
+      "zh-TW": "1張雙人床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Standard B (35 m²)",
+     "capacity": 6,
+     "adults": false,
+     "capacityText": {
+      "en": "6 guests",
+      "ko": "6명",
+      "zh-TW": "6名住客"
+     },
+     "size": "35.0 m²",
+     "sizeM2": 35.0,
+     "beds": {
+      "en": "3 double beds",
+      "ko": "더블 침대 3개",
+      "zh-TW": "3張雙人床"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "bathroom",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Superior C (42 m²)",
+     "capacity": 6,
+     "adults": false,
+     "capacityText": {
+      "en": "6 guests",
+      "ko": "6명",
+      "zh-TW": "6名住客"
+     },
+     "size": "42.0 m²",
+     "sizeM2": 42.0,
+     "beds": {
+      "en": "3 double beds",
+      "ko": "더블 침대 3개",
+      "zh-TW": "3張雙人床"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "bathroom",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "mimaru-kawaramachi-gojo",
+   "city": "kyoto",
+   "name": "MIMARU Kawaramachi Gojo",
+   "brand": "MIMARU",
+   "area": {
+    "en": "Kyoto / Shimogyo",
+    "ko": "교토 / 시모교구",
+    "zh-TW": "京都 / 下京區"
+   },
+   "photo": "https://mimaruhotels.com/app/uploads/2025/01/pc_1-1.jpg",
+   "roomTypes": 10,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Pokémon Room",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Apartment (5 Single Beds)",
+     "capacity": 5,
+     "adults": true,
+     "capacityText": {
+      "en": "5 adults",
+      "ko": "성인 5명",
+      "zh-TW": "5名成人"
+     },
+     "size": "45.0 m²",
+     "sizeM2": 45.0,
+     "beds": {
+      "en": "5 single beds",
+      "ko": "싱글 침대 5개",
+      "zh-TW": "5張單人床"
+     },
+     "bedSleepers": 5,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Japanese Apartment",
+     "capacity": 5,
+     "adults": true,
+     "capacityText": {
+      "en": "5 adults",
+      "ko": "성인 5명",
+      "zh-TW": "5名成人"
+     },
+     "size": "45.0 m²",
+     "sizeM2": 45.0,
+     "beds": {
+      "en": "2 single beds, 3 futons",
+      "ko": "싱글 침대 2개, 요이불 3개",
+      "zh-TW": "2張單人床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-4",
+     "nameEn": "Deluxe Apartment (6 Single Beds)",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "50.0 m²",
+     "sizeM2": 50.0,
+     "beds": {
+      "en": "6 single beds",
+      "ko": "싱글 침대 6개",
+      "zh-TW": "6張單人床"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-5",
+     "nameEn": "Deluxe One-Bedroom Loft Bed Apartment",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "60.0 m²",
+     "sizeM2": 60.0,
+     "beds": {
+      "en": "4 single beds, 2 loft beds",
+      "ko": "싱글 침대 4개, 로프트 침대 2개",
+      "zh-TW": "4張單人床、2張高架床"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-6",
+     "nameEn": "Two-Bedroom Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "60.0 m²",
+     "sizeM2": 60.0,
+     "beds": {
+      "en": "4 single beds",
+      "ko": "싱글 침대 4개",
+      "zh-TW": "4張單人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-7",
+     "nameEn": "Two-Bedroom Family Apartment",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "60.0 m²",
+     "sizeM2": 60.0,
+     "beds": {
+      "en": "4 single beds, 1 bunk bed",
+      "ko": "싱글 침대 4개, 이층 침대 1개",
+      "zh-TW": "4張單人床、1張上下舖"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-8",
+     "nameEn": "Connecting Family Apartment",
+     "capacity": 8,
+     "adults": true,
+     "capacityText": {
+      "en": "8 adults",
+      "ko": "성인 8명",
+      "zh-TW": "8名成人"
+     },
+     "size": "80.0 m²",
+     "sizeM2": 80.0,
+     "beds": {
+      "en": "4 single beds, 2 bunk beds",
+      "ko": "싱글 침대 4개, 이층 침대 2개",
+      "zh-TW": "4張單人床、2張上下舖"
+     },
+     "bedSleepers": 8,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-9",
+     "nameEn": "Accessible Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "mimaru-kyoto-station",
+   "city": "kyoto",
+   "name": "MIMARU Kyoto Station",
+   "brand": "MIMARU",
+   "area": {
+    "en": "Kyoto / Minami",
+    "ko": "교토 / 미나미구",
+    "zh-TW": "京都 / 南區"
+   },
+   "photo": "https://mimaruhotels.com/app/uploads/2025/01/pc-1-14.jpg",
+   "roomTypes": 6,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Train View Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Garden View Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Two-Bedroom Family Suite",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "80.0 m²",
+     "sizeM2": 80.0,
+     "beds": {
+      "en": "4 single beds, 1 bunk bed",
+      "ko": "싱글 침대 4개, 이층 침대 1개",
+      "zh-TW": "4張單人床、1張上下舖"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-4",
+     "nameEn": "Pokémon Room",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-5",
+     "nameEn": "Connecting Family Apartment",
+     "capacity": 8,
+     "adults": true,
+     "capacityText": {
+      "en": "8 adults",
+      "ko": "성인 8명",
+      "zh-TW": "8名成人"
+     },
+     "size": "80.0 m²",
+     "sizeM2": 80.0,
+     "beds": {
+      "en": "4 single beds, 2 bunk beds",
+      "ko": "싱글 침대 4개, 이층 침대 2개",
+      "zh-TW": "4張單人床、2張上下舖"
+     },
+     "bedSleepers": 8,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "mimaru-namba-north",
+   "city": "osaka",
+   "name": "MIMARU Namba North",
+   "brand": "MIMARU",
+   "area": {
+    "en": "Osaka / Nishi",
+    "ko": "오사카 / 니시구",
+    "zh-TW": "大阪 / 西區"
+   },
+   "photo": "https://mimaruhotels.com/app/uploads/2025/01/pc-1-24.jpg",
+   "roomTypes": 4,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "39–41 m²",
+     "sizeM2": 39.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Corner Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "41.0 m²",
+     "sizeM2": 41.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Loft Bed Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "37.0 m²",
+     "sizeM2": 37.0,
+     "beds": {
+      "en": "2 single beds, 2 loft beds",
+      "ko": "싱글 침대 2개, 로프트 침대 2개",
+      "zh-TW": "2張單人床、2張高架床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Pokémon Room",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "41.0 m²",
+     "sizeM2": 41.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "mimaru-namba-station",
+   "city": "osaka",
+   "name": "MIMARU Namba Station",
+   "brand": "MIMARU",
+   "area": {
+    "en": "Osaka / Naniwa",
+    "ko": "오사카 / 나니와구",
+    "zh-TW": "大阪 / 浪速區"
+   },
+   "photo": "https://mimaruhotels.com/app/uploads/2025/01/pc-2-22.jpg",
+   "roomTypes": 12,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "35.0 m²",
+     "sizeM2": 35.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-1",
+     "nameEn": "One-Bedroom Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "39.0 m²",
+     "sizeM2": 39.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Loft Bed Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "36.0 m²",
+     "sizeM2": 36.0,
+     "beds": {
+      "en": "2 single beds, 2 loft beds",
+      "ko": "싱글 침대 2개, 로프트 침대 2개",
+      "zh-TW": "2張單人床、2張高架床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-3",
+     "nameEn": "One-Bedroom Loft Bed Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "39.0 m²",
+     "sizeM2": 39.0,
+     "beds": {
+      "en": "2 single beds, 2 loft beds",
+      "ko": "싱글 침대 2개, 로프트 침대 2개",
+      "zh-TW": "2張單人床、2張高架床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-4",
+     "nameEn": "One-Bedroom Japanese Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "39–41 m²",
+     "sizeM2": 39.0,
+     "beds": {
+      "en": "2 single beds, 2 futons",
+      "ko": "싱글 침대 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-5",
+     "nameEn": "Two-Bedroom Japanese Apartment",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "51.0 m²",
+     "sizeM2": 51.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed, 2 futons",
+      "ko": "싱글 침대 2개, 이층 침대 1개, 요이불 2개",
+      "zh-TW": "2張單人床、1張上下舖、2張日式床墊"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-6",
+     "nameEn": "Two-Bedroom Family Suite",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "61.0 m²",
+     "sizeM2": 61.0,
+     "beds": {
+      "en": "4 single beds, 1 bunk bed",
+      "ko": "싱글 침대 4개, 이층 침대 1개",
+      "zh-TW": "4張單人床、1張上下舖"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-7",
+     "nameEn": "Kids' Board Game Room",
+     "capacity": 5,
+     "adults": true,
+     "capacityText": {
+      "en": "5 adults",
+      "ko": "성인 5명",
+      "zh-TW": "5名成人"
+     },
+     "size": "39.0 m²",
+     "sizeM2": 39.0,
+     "beds": {
+      "en": "2 single beds, 3 futons",
+      "ko": "싱글 침대 2개, 요이불 3개",
+      "zh-TW": "2張單人床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-8",
+     "nameEn": "All-Night Board Game Room",
+     "capacity": 5,
+     "adults": true,
+     "capacityText": {
+      "en": "5 adults",
+      "ko": "성인 5명",
+      "zh-TW": "5名成人"
+     },
+     "size": "39.0 m²",
+     "sizeM2": 39.0,
+     "beds": {
+      "en": "2 single beds, 3 futons",
+      "ko": "싱글 침대 2개, 요이불 3개",
+      "zh-TW": "2張單人床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-9",
+     "nameEn": "Werewolf and Murder Mystery Room",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "59.0 m²",
+     "sizeM2": 59.0,
+     "beds": {
+      "en": "4 single beds, 1 bunk bed",
+      "ko": "싱글 침대 4개, 이층 침대 1개",
+      "zh-TW": "4張單人床、1張上下舖"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-10",
+     "nameEn": "Sky Terrace and Board Game Room",
+     "capacity": 5,
+     "adults": true,
+     "capacityText": {
+      "en": "5 adults",
+      "ko": "성인 5명",
+      "zh-TW": "5名成人"
+     },
+     "size": "39.0 m²",
+     "sizeM2": 39.0,
+     "beds": {
+      "en": "2 single beds, 3 futons",
+      "ko": "싱글 침대 2개, 요이불 3개",
+      "zh-TW": "2張單人床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-11",
+     "nameEn": "Accessible Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "35.0 m²",
+     "sizeM2": 35.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "mimaru-nijo-castle",
+   "city": "kyoto",
+   "name": "MIMARU Nijo Castle",
+   "brand": "MIMARU",
+   "area": {
+    "en": "Kyoto / Nakagyo",
+    "ko": "교토 / 나카교구",
+    "zh-TW": "京都 / 中京區"
+   },
+   "photo": "https://mimaruhotels.com/app/uploads/2025/01/pc-1-17.jpg",
+   "roomTypes": 6,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-1",
+     "nameEn": "High Floor One-Bedroom Family Apartment(Sofa-Bed) for 5",
+     "capacity": 5,
+     "adults": true,
+     "capacityText": {
+      "en": "5 adults",
+      "ko": "성인 5명",
+      "zh-TW": "5名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed, 1 sofa bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張上下舖、1張沙發床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Japanese Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 2 futons",
+      "ko": "싱글 침대 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Japanese Apartment for 5",
+     "capacity": 5,
+     "adults": true,
+     "capacityText": {
+      "en": "5 adults",
+      "ko": "성인 5명",
+      "zh-TW": "5名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 3 futons",
+      "ko": "싱글 침대 2개, 요이불 3개",
+      "zh-TW": "2張單人床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-4",
+     "nameEn": "Connecting Family Apartment",
+     "capacity": 8,
+     "adults": true,
+     "capacityText": {
+      "en": "8 adults",
+      "ko": "성인 8명",
+      "zh-TW": "8名成人"
+     },
+     "size": "80.0 m²",
+     "sizeM2": 80.0,
+     "beds": {
+      "en": "4 single beds, 2 bunk beds",
+      "ko": "싱글 침대 4개, 이층 침대 2개",
+      "zh-TW": "4張單人床、2張上下舖"
+     },
+     "bedSleepers": 8,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-5",
+     "nameEn": "Connecting Japanese Apartment for 10",
+     "capacity": 10,
+     "adults": true,
+     "capacityText": {
+      "en": "10 adults",
+      "ko": "성인 10명",
+      "zh-TW": "10名成人"
+     },
+     "size": "80.0 m²",
+     "sizeM2": 80.0,
+     "beds": {
+      "en": "4 single beds, 6 futons",
+      "ko": "싱글 침대 4개, 요이불 6개",
+      "zh-TW": "4張單人床、6張日式床墊"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 6,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mimaru-shijo-west",
+   "city": "kyoto",
+   "name": "MIMARU Shijo West",
+   "brand": "MIMARU",
+   "area": {
+    "en": "Kyoto / Shimogyo",
+    "ko": "교토 / 시모교구",
+    "zh-TW": "京都 / 下京區"
+   },
+   "photo": "https://mimaruhotels.com/app/uploads/2025/01/pc-1-16.jpg",
+   "roomTypes": 7,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Apartment (4 Single-Beds)",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "4 single beds",
+      "ko": "싱글 침대 4개",
+      "zh-TW": "4張單人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Japanese Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 2 futons",
+      "ko": "싱글 침대 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-3",
+     "nameEn": "One-Bedroom Family Apartment",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "60.0 m²",
+     "sizeM2": 60.0,
+     "beds": {
+      "en": "4 single beds, 1 bunk bed",
+      "ko": "싱글 침대 4개, 이층 침대 1개",
+      "zh-TW": "4張單人床、1張上下舖"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-4",
+     "nameEn": "One-Bedroom Apartment(4 Single-Beds)",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "60.0 m²",
+     "sizeM2": 60.0,
+     "beds": {
+      "en": "4 single beds",
+      "ko": "싱글 침대 4개",
+      "zh-TW": "4張單人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-5",
+     "nameEn": "Pokémon Room",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "4 single beds",
+      "ko": "싱글 침대 4개",
+      "zh-TW": "4張單人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-6",
+     "nameEn": "Pokémon Room for 6 guests",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "60.0 m²",
+     "sizeM2": 60.0,
+     "beds": {
+      "en": "4 single beds, 1 bunk bed",
+      "ko": "싱글 침대 4개, 이층 침대 1개",
+      "zh-TW": "4張單人床、1張上下舖"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "mimaru-shinmachi-sanjo",
+   "city": "kyoto",
+   "name": "MIMARU Shinmachi Sanjo",
+   "brand": "MIMARU",
+   "area": {
+    "en": "Kyoto / Nakagyo",
+    "ko": "교토 / 나카교구",
+    "zh-TW": "京都 / 中京區"
+   },
+   "photo": "https://mimaruhotels.com/app/uploads/2025/01/pc-1-15.jpg",
+   "roomTypes": 8,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "One-Bedroom Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Deluxe One-Bedroom Family Apartment",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "60.0 m²",
+     "sizeM2": 60.0,
+     "beds": {
+      "en": "4 single beds, 1 bunk bed",
+      "ko": "싱글 침대 4개, 이층 침대 1개",
+      "zh-TW": "4張單人床、1張上下舖"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Japanese Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "35.0 m²",
+     "sizeM2": 35.0,
+     "beds": {
+      "en": "2 single beds, 2 futons",
+      "ko": "싱글 침대 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Japanese Apartment for 5",
+     "capacity": 5,
+     "adults": true,
+     "capacityText": {
+      "en": "5 adults",
+      "ko": "성인 5명",
+      "zh-TW": "5名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 3 futons",
+      "ko": "싱글 침대 2개, 요이불 3개",
+      "zh-TW": "2張單人床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-4",
+     "nameEn": "Deluxe One-Bedroom Japanese Apartment",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "60.0 m²",
+     "sizeM2": 60.0,
+     "beds": {
+      "en": "4 single beds, 2 futons",
+      "ko": "싱글 침대 4개, 요이불 2개",
+      "zh-TW": "4張單人床、2張日式床墊"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-5",
+     "nameEn": "Pokémon Room",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-6",
+     "nameEn": "Connecting Family Apartment",
+     "capacity": 8,
+     "adults": true,
+     "capacityText": {
+      "en": "8 adults",
+      "ko": "성인 8명",
+      "zh-TW": "8名成人"
+     },
+     "size": "80.0 m²",
+     "sizeM2": 80.0,
+     "beds": {
+      "en": "4 single beds, 2 bunk beds",
+      "ko": "싱글 침대 4개, 이층 침대 2개",
+      "zh-TW": "4張單人床、2張上下舖"
+     },
+     "bedSleepers": 8,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-7",
+     "nameEn": "Accessible Japanese Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "35.0 m²",
+     "sizeM2": 35.0,
+     "beds": {
+      "en": "2 single beds, 2 futons",
+      "ko": "싱글 침대 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mimaru-shinsaibashi-east",
+   "city": "osaka",
+   "name": "MIMARU Shinsaibashi East",
+   "brand": "MIMARU",
+   "area": {
+    "en": "Osaka / Chuo",
+    "ko": "오사카 / 주오구",
+    "zh-TW": "大阪 / 中央區"
+   },
+   "photo": "https://mimaruhotels.com/app/uploads/2025/01/pc-1-23.jpg",
+   "roomTypes": 3,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "38.0 m²",
+     "sizeM2": 38.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-1",
+     "nameEn": "One-Bedroom Japanese Apartment for 5",
+     "capacity": 5,
+     "adults": true,
+     "capacityText": {
+      "en": "5 adults",
+      "ko": "성인 5명",
+      "zh-TW": "5名成人"
+     },
+     "size": "39.0 m²",
+     "sizeM2": 39.0,
+     "beds": {
+      "en": "2 single beds, 3 futons",
+      "ko": "싱글 침대 2개, 요이불 3개",
+      "zh-TW": "2張單人床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Superior Two-Bedroom Japanese Apartment for 7",
+     "capacity": 7,
+     "adults": true,
+     "capacityText": {
+      "en": "7 adults",
+      "ko": "성인 7명",
+      "zh-TW": "7名成人"
+     },
+     "size": "58.0 m²",
+     "sizeM2": 58.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed, 3 futons",
+      "ko": "싱글 침대 2개, 이층 침대 1개, 요이불 3개",
+      "zh-TW": "2張單人床、1張上下舖、3張日式床墊"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "mimaru-shinsaibashi-north",
+   "city": "osaka",
+   "name": "MIMARU Shinsaibashi North",
+   "brand": "MIMARU",
+   "area": {
+    "en": "Osaka / Chuo",
+    "ko": "오사카 / 주오구",
+    "zh-TW": "大阪 / 中央區"
+   },
+   "photo": "https://mimaruhotels.com/app/uploads/2025/01/pc-1-20.jpg",
+   "roomTypes": 8,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Superior Two-Bedroom Family Apartment for 6",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "54.0 m²",
+     "sizeM2": 54.0,
+     "beds": {
+      "en": "4 single beds, 1 bunk bed",
+      "ko": "싱글 침대 4개, 이층 침대 1개",
+      "zh-TW": "4張單人床、1張上下舖"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-1",
+     "nameEn": "One-Bedroom Family Apartment(No shoes allowed)",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "35.0 m²",
+     "sizeM2": 35.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-2",
+     "nameEn": "One-Bedroom Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "35.0 m²",
+     "sizeM2": 35.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Deluxe Two-Bedroom Family Apartment",
+     "capacity": 8,
+     "adults": true,
+     "capacityText": {
+      "en": "8 adults",
+      "ko": "성인 8명",
+      "zh-TW": "8名成人"
+     },
+     "size": "79.0 m²",
+     "sizeM2": 79.0,
+     "beds": {
+      "en": "4 single beds, 2 bunk beds",
+      "ko": "싱글 침대 4개, 이층 침대 2개",
+      "zh-TW": "4張單人床、2張上下舖"
+     },
+     "bedSleepers": 8,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-4",
+     "nameEn": "Tono-Room",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "79.0 m²",
+     "sizeM2": 79.0,
+     "beds": {
+      "en": "4 single beds, 2 futons",
+      "ko": "싱글 침대 4개, 요이불 2개",
+      "zh-TW": "4張單人床、2張日式床墊"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-5",
+     "nameEn": "Hime-Room",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "54.0 m²",
+     "sizeM2": 54.0,
+     "beds": {
+      "en": "2 single beds, 2 futons",
+      "ko": "싱글 침대 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-6",
+     "nameEn": "Waka-Room",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "35.0 m²",
+     "sizeM2": 35.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-7",
+     "nameEn": "Ninja Room",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "54.0 m²",
+     "sizeM2": 54.0,
+     "beds": {
+      "en": "4 single beds, 1 bunk bed",
+      "ko": "싱글 침대 4개, 이층 침대 1개",
+      "zh-TW": "4張單人床、1張上下舖"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "mimaru-shinsaibashi-west",
+   "city": "osaka",
+   "name": "MIMARU Shinsaibashi West",
+   "brand": "MIMARU",
+   "area": {
+    "en": "Osaka / Nishi",
+    "ko": "오사카 / 니시구",
+    "zh-TW": "大阪 / 西區"
+   },
+   "photo": "https://mimaruhotels.com/app/uploads/2025/01/pc-1-21.jpg",
+   "roomTypes": 4,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "One-Bedroom Japanese Apartment for 5",
+     "capacity": 5,
+     "adults": true,
+     "capacityText": {
+      "en": "5 adults",
+      "ko": "성인 5명",
+      "zh-TW": "5名成人"
+     },
+     "size": "43.0 m²",
+     "sizeM2": 43.0,
+     "beds": {
+      "en": "2 single beds, 3 futons",
+      "ko": "싱글 침대 2개, 요이불 3개",
+      "zh-TW": "2張單人床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Family Apartment",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "38.0 m²",
+     "sizeM2": 38.0,
+     "beds": {
+      "en": "2 single beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Premium One-Bedroom Japanese Apartment",
+     "capacity": 7,
+     "adults": true,
+     "capacityText": {
+      "en": "7 adults",
+      "ko": "성인 7명",
+      "zh-TW": "7名成人"
+     },
+     "size": "59.0 m²",
+     "sizeM2": 59.0,
+     "beds": {
+      "en": "2 single beds, 3 futons, 1 bunk bed",
+      "ko": "싱글 침대 2개, 요이불 3개, 이층 침대 1개",
+      "zh-TW": "2張單人床、3張日式床墊、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Connecting Japanese Apartment for 9",
+     "capacity": 9,
+     "adults": true,
+     "capacityText": {
+      "en": "9 adults",
+      "ko": "성인 9명",
+      "zh-TW": "9名成人"
+     },
+     "size": "81.0 m²",
+     "sizeM2": 81.0,
+     "beds": {
+      "en": "4 single beds, 3 futons, 1 bunk bed",
+      "ko": "싱글 침대 4개, 요이불 3개, 이층 침대 1개",
+      "zh-TW": "4張單人床、3張日式床墊、1張上下舖"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "no",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "mimaru-suites-kyoto-central",
+   "city": "kyoto",
+   "name": "MIMARU Suites Kyoto Central",
+   "brand": "MIMARU",
+   "area": {
+    "en": "Kyoto / Nakagyo",
+    "ko": "교토 / 나카교구",
+    "zh-TW": "京都 / 中京區"
+   },
+   "photo": "https://mimaruhotels.com/app/uploads/2025/01/pc-1-13.jpg",
+   "roomTypes": 3,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Two-Bedroom Suite for 4",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "85.0 m²",
+     "sizeM2": 85.0,
+     "beds": {
+      "en": "4 single beds",
+      "ko": "싱글 침대 4개",
+      "zh-TW": "4張單人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Premium Two-Bedroom Suite for 4",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "85.0 m²",
+     "sizeM2": 85.0,
+     "beds": {
+      "en": "4 single beds",
+      "ko": "싱글 침대 4개",
+      "zh-TW": "4張單人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Two-Bedroom Japanese Suite for 6",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "85.0 m²",
+     "sizeM2": 85.0,
+     "beds": {
+      "en": "4 single beds, 2 futons",
+      "ko": "싱글 침대 4개, 요이불 2개",
+      "zh-TW": "4張單人床、2張日式床墊"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "mimaru-suites-kyoto-shijo",
+   "city": "kyoto",
+   "name": "MIMARU Suites Kyoto Shijo",
+   "brand": "MIMARU",
+   "area": {
+    "en": "Kyoto / Shimogyo",
+    "ko": "교토 / 시모교구",
+    "zh-TW": "京都 / 下京區"
+   },
+   "photo": "https://mimaruhotels.com/app/uploads/2025/01/pc-1-18.jpg",
+   "roomTypes": 7,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Superior Two-Bedroom Suite",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "67.0 m²",
+     "sizeM2": 67.0,
+     "beds": {
+      "en": "4 single beds",
+      "ko": "싱글 침대 4개",
+      "zh-TW": "4張單人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Two-Bedroom Suite",
+     "capacity": 4,
+     "adults": true,
+     "capacityText": {
+      "en": "4 adults",
+      "ko": "성인 4명",
+      "zh-TW": "4名成人"
+     },
+     "size": "49.0 m²",
+     "sizeM2": 49.0,
+     "beds": {
+      "en": "4 single beds",
+      "ko": "싱글 침대 4개",
+      "zh-TW": "4張單人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Two-Bedroom Suite for 5",
+     "capacity": 5,
+     "adults": true,
+     "capacityText": {
+      "en": "5 adults",
+      "ko": "성인 5명",
+      "zh-TW": "5名成人"
+     },
+     "size": "79.0 m²",
+     "sizeM2": 79.0,
+     "beds": {
+      "en": "5 single beds",
+      "ko": "싱글 침대 5개",
+      "zh-TW": "5張單人床"
+     },
+     "bedSleepers": 5,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Two-Bedroom Japanese Suite",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "84.0 m²",
+     "sizeM2": 84.0,
+     "beds": {
+      "en": "4 single beds, 2 futons",
+      "ko": "싱글 침대 4개, 요이불 2개",
+      "zh-TW": "4張單人床、2張日式床墊"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-4",
+     "nameEn": "Two-Bedroom Japanese Suite First Floor",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "86.0 m²",
+     "sizeM2": 86.0,
+     "beds": {
+      "en": "4 single beds, 2 futons",
+      "ko": "싱글 침대 4개, 요이불 2개",
+      "zh-TW": "4張單人床、2張日式床墊"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-5",
+     "nameEn": "Three-Bedroom Suite",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "79.0 m²",
+     "sizeM2": 79.0,
+     "beds": {
+      "en": "6 single beds",
+      "ko": "싱글 침대 6개",
+      "zh-TW": "6張單人床"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-6",
+     "nameEn": "Premium Two-Bedroom Japanese Suite",
+     "capacity": 6,
+     "adults": true,
+     "capacityText": {
+      "en": "6 adults",
+      "ko": "성인 6명",
+      "zh-TW": "6名成人"
+     },
+     "size": "98.0 m²",
+     "sizeM2": 98.0,
+     "beds": {
+      "en": "4 single beds, 2 futons",
+      "ko": "싱글 침대 4개, 요이불 2개",
+      "zh-TW": "4張單人床、2張日式床墊"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "ih",
+      "cookware": "yes",
+      "tableware": "yes"
+     },
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "minn-gion-kamogawa",
+   "city": "kyoto",
+   "name": "Minn Gion Kamogawa",
+   "brand": "Minn",
+   "area": {
+    "en": "Kyoto / Higashiyama",
+    "ko": "교토 / 히가시야마구",
+    "zh-TW": "京都 / 東山區"
+   },
+   "photo": "/assets/minn/minn-gion-kamogawa/01.jpg?v=20260818hq",
+   "roomTypes": 10,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Deluxe 6 Beds Japanese Style",
+     "capacity": 6,
+     "adults": false,
+     "capacityText": {
+      "en": "6 guests",
+      "ko": "6명",
+      "zh-TW": "6名住客"
+     },
+     "size": "53.0 m²",
+     "sizeM2": 53.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds, 2 futons",
+      "ko": "싱글 침대 2개, 소파베드 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張沙發床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 4,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Superior Suite 6 Beds",
+     "capacity": 6,
+     "adults": false,
+     "capacityText": {
+      "en": "6 guests",
+      "ko": "6명",
+      "zh-TW": "6名住客"
+     },
+     "size": "46.0 m²",
+     "sizeM2": 46.0,
+     "beds": {
+      "en": "3 single beds, 3 sofa beds",
+      "ko": "싱글 침대 3개, 소파베드 3개",
+      "zh-TW": "3張單人床、3張沙發床"
+     },
+     "bedSleepers": 3,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Superior Suite 5 Beds Japanese Style",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "44.0 m²",
+     "sizeM2": 44.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds, 1 futon",
+      "ko": "싱글 침대 2개, 소파베드 2개, 요이불 1개",
+      "zh-TW": "2張單人床、2張沙發床、1張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Superior Suite 5 Beds",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "44.0 m²",
+     "sizeM2": 44.0,
+     "beds": {
+      "en": "2 single beds, 3 sofa beds",
+      "ko": "싱글 침대 2개, 소파베드 3개",
+      "zh-TW": "2張單人床、3張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-4",
+     "nameEn": "Standard 3 Beds Japanese Garden",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "29.0 m²",
+     "sizeM2": 29.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed",
+      "ko": "싱글 침대 2개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-5",
+     "nameEn": "Standard 3 Beds Roof Balcony Access",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "26.0 m²",
+     "sizeM2": 26.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed",
+      "ko": "싱글 침대 2개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-6",
+     "nameEn": "Standard 4 Beds",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "25.0 m²",
+     "sizeM2": 25.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds",
+      "ko": "싱글 침대 2개, 소파베드 2개",
+      "zh-TW": "2張單人床、2張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-7",
+     "nameEn": "Standard 3 Beds B",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "22.0 m²",
+     "sizeM2": 22.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed",
+      "ko": "싱글 침대 2개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-8",
+     "nameEn": "Standard 2 Beds Roof Balcony Access",
+     "capacity": 2,
+     "adults": false,
+     "capacityText": {
+      "en": "2 guests",
+      "ko": "2명",
+      "zh-TW": "2名住客"
+     },
+     "size": "21.0 m²",
+     "sizeM2": 21.0,
+     "beds": {
+      "en": "2 single beds",
+      "ko": "싱글 침대 2개",
+      "zh-TW": "2張單人床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-9",
+     "nameEn": "Standard 3 Beds A",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "20.0 m²",
+     "sizeM2": 20.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed",
+      "ko": "싱글 침대 2개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "minn-gion-sanjo",
+   "city": "kyoto",
+   "name": "Minn Gion Sanjo",
+   "brand": "Minn",
+   "area": {
+    "en": "Kyoto / Higashiyama",
+    "ko": "교토 / 히가시야마구",
+    "zh-TW": "京都 / 東山區"
+   },
+   "photo": "/assets/minn/minn-gion-sanjo/01.jpg?v=20260818hq",
+   "roomTypes": 10,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "【Suite 62SQM】 Premium 6 Beds Japanese Style",
+     "capacity": 6,
+     "adults": false,
+     "capacityText": {
+      "en": "6 guests",
+      "ko": "6명",
+      "zh-TW": "6名住客"
+     },
+     "size": "62.0 m²",
+     "sizeM2": 62.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed, 3 futons",
+      "ko": "싱글 침대 2개, 소파베드 1개, 요이불 3개",
+      "zh-TW": "2張單人床、1張沙發床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 4,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-1",
+     "nameEn": "【Suite 54SQM】 Deluxe 6 Beds Japanese Style",
+     "capacity": 6,
+     "adults": false,
+     "capacityText": {
+      "en": "6 guests",
+      "ko": "6명",
+      "zh-TW": "6名住客"
+     },
+     "size": "54.0 m²",
+     "sizeM2": 54.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed, 3 futons",
+      "ko": "싱글 침대 2개, 소파베드 1개, 요이불 3개",
+      "zh-TW": "2張單人床、1張沙發床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 4,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Deluxe 5 Beds Roof Balcony Access",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "52.0 m²",
+     "sizeM2": 52.0,
+     "beds": {
+      "en": "3 single beds, 2 futons",
+      "ko": "싱글 침대 3개, 요이불 2개",
+      "zh-TW": "3張單人床、2張日式床墊"
+     },
+     "bedSleepers": 3,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-3",
+     "nameEn": "【Suite 48SQM】 Deluxe 5 Beds Japanese Style",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "48.0 m²",
+     "sizeM2": 48.0,
+     "beds": {
+      "en": "2 single beds, 3 futons",
+      "ko": "싱글 침대 2개, 요이불 3개",
+      "zh-TW": "2張單人床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-4",
+     "nameEn": "【Suite 40SQM】 Deluxe 4 Beds",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds",
+      "ko": "싱글 침대 2개, 소파베드 2개",
+      "zh-TW": "2張單人床、2張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-5",
+     "nameEn": "【Suite 46SQM】 Superior 5 Beds Japanese Style",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "46.0 m²",
+     "sizeM2": 46.0,
+     "beds": {
+      "en": "2 single beds, 3 futons",
+      "ko": "싱글 침대 2개, 요이불 3개",
+      "zh-TW": "2張單人床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-6",
+     "nameEn": "【Suite 42SQM】 Superior 4 Beds Japanese Style",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "42.0 m²",
+     "sizeM2": 42.0,
+     "beds": {
+      "en": "2 single beds, 2 futons",
+      "ko": "싱글 침대 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-7",
+     "nameEn": "【Suite 42SQM】 Superior 3 Beds",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "42.0 m²",
+     "sizeM2": 42.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed",
+      "ko": "싱글 침대 2개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-8",
+     "nameEn": "【Suite 40SQM】 Superior 4 Beds",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds",
+      "ko": "싱글 침대 2개, 소파베드 2개",
+      "zh-TW": "2張單人床、2張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-9",
+     "nameEn": "Moderate 3 Beds (Including Basement Floor)",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "35.0 m²",
+     "sizeM2": 35.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed",
+      "ko": "싱글 침대 2개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "minn-gion",
+   "city": "kyoto",
+   "name": "Minn Gion",
+   "brand": "Minn",
+   "area": {
+    "en": "Kyoto / Higashiyama",
+    "ko": "교토 / 히가시야마구",
+    "zh-TW": "京都 / 東山區"
+   },
+   "photo": "/assets/minn/minn-gion/01.jpg?v=20260818hq",
+   "roomTypes": 8,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Premium Suite 5 Beds",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "62.0 m²",
+     "sizeM2": 62.0,
+     "beds": {
+      "en": "2 single beds, 3 futons",
+      "ko": "싱글 침대 2개, 요이불 3개",
+      "zh-TW": "2張單人床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "unknown",
+      "fridge": "unknown",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Executive Suite 5 Beds - Japanese Style",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "58.0 m²",
+     "sizeM2": 58.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds, 1 futon",
+      "ko": "싱글 침대 2개, 소파베드 2개, 요이불 1개",
+      "zh-TW": "2張單人床、2張沙發床、1張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "unknown",
+      "fridge": "unknown",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Deluxe Suite 5 Beds - Japanese Style",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "52.0 m²",
+     "sizeM2": 52.0,
+     "beds": {
+      "en": "2 single beds, 3 futons",
+      "ko": "싱글 침대 2개, 요이불 3개",
+      "zh-TW": "2張單人床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "unknown",
+      "fridge": "unknown",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Deluxe Suite 4 Beds",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "50.0 m²",
+     "sizeM2": 50.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds",
+      "ko": "싱글 침대 2개, 소파베드 2개",
+      "zh-TW": "2張單人床、2張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "unknown",
+      "fridge": "unknown",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-4",
+     "nameEn": "Superior Suite 4 Beds",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "42.0 m²",
+     "sizeM2": 42.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds",
+      "ko": "싱글 침대 2개, 소파베드 2개",
+      "zh-TW": "2張單人床、2張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "unknown",
+      "fridge": "unknown",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-5",
+     "nameEn": "Moderate 4 Beds",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "38.0 m²",
+     "sizeM2": 38.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds",
+      "ko": "싱글 침대 2개, 소파베드 2개",
+      "zh-TW": "2張單人床、2張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "unknown",
+      "fridge": "unknown",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-6",
+     "nameEn": "Moderate 4 Beds - Japanese Style",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "36.0 m²",
+     "sizeM2": 36.0,
+     "beds": {
+      "en": "2 single beds, 2 futons",
+      "ko": "싱글 침대 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "unknown",
+      "fridge": "unknown",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-7",
+     "nameEn": "Standard 3 Beds",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "30.0 m²",
+     "sizeM2": 30.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed",
+      "ko": "싱글 침대 2개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "unknown",
+      "fridge": "unknown",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "minn-juso",
+   "city": "osaka",
+   "name": "Minn Juso",
+   "brand": "Minn",
+   "area": {
+    "en": "Osaka / Yodogawa",
+    "ko": "오사카 / 요도가와구",
+    "zh-TW": "大阪 / 淀川區"
+   },
+   "photo": "/assets/minn/minn-juso/01.jpg?v=20260818hq",
+   "roomTypes": 8,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Suite Room",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "46.0 m²",
+     "sizeM2": 46.0,
+     "beds": {
+      "en": "2 queen beds",
+      "ko": "퀸 침대 2개",
+      "zh-TW": "2張加大雙人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Superior Family Loft Bedroom A",
+     "capacity": 6,
+     "adults": false,
+     "capacityText": {
+      "en": "6 guests",
+      "ko": "6명",
+      "zh-TW": "6名住客"
+     },
+     "size": "42.0 m²",
+     "sizeM2": 42.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds, 1 bunk bed",
+      "ko": "싱글 침대 2개, 소파베드 2개, 이층 침대 1개",
+      "zh-TW": "2張單人床、2張沙發床、1張上下舖"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Superior Family Loft Bedroom B",
+     "capacity": 6,
+     "adults": false,
+     "capacityText": {
+      "en": "6 guests",
+      "ko": "6명",
+      "zh-TW": "6名住客"
+     },
+     "size": "41.0 m²",
+     "sizeM2": 41.0,
+     "beds": {
+      "en": "2 double beds, 2 single loft beds, 2 sofa beds",
+      "ko": "더블 침대 2개, 싱글 로프트 침대 2개, 소파베드 2개",
+      "zh-TW": "2張雙人床、2張單人高架床、2張沙發床"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Superior Family Room",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "38.0 m²",
+     "sizeM2": 38.0,
+     "beds": {
+      "en": "3 single beds, 1 sofa bed",
+      "ko": "싱글 침대 3개, 소파베드 1개",
+      "zh-TW": "3張單人床、1張沙發床"
+     },
+     "bedSleepers": 3,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-4",
+     "nameEn": "Moderate Family Loft Bedroom",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "33.0 m²",
+     "sizeM2": 33.0,
+     "beds": {
+      "en": "2 semi-double beds, 1 sofa bed, 2 bunk beds",
+      "ko": "세미 더블 침대 2개, 소파베드 1개, 이층 침대 2개",
+      "zh-TW": "2張小型雙人床、1張沙發床、2張上下舖"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-5",
+     "nameEn": "Hollywood Twin Room",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "33.0 m²",
+     "sizeM2": 33.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds",
+      "ko": "싱글 침대 2개, 소파베드 2개",
+      "zh-TW": "2張單人床、2張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-6",
+     "nameEn": "Moderate Double Room",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "28.0 m²",
+     "sizeM2": 28.0,
+     "beds": {
+      "en": "1 double bed, 1 sofa bed",
+      "ko": "더블 침대 1개, 소파베드 1개",
+      "zh-TW": "1張雙人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-7",
+     "nameEn": "Moderate Twin Room",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "28.0 m²",
+     "sizeM2": 28.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed",
+      "ko": "싱글 침대 2개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "minn-karasuma-gojo",
+   "city": "kyoto",
+   "name": "Minn Karasuma Gojo Kyoto Station North",
+   "brand": "Minn",
+   "area": {
+    "en": "Kyoto / Shimogyo",
+    "ko": "교토 / 시모교구",
+    "zh-TW": "京都 / 下京區"
+   },
+   "photo": "/assets/minn/minn-karasuma-gojo/01.jpg?v=20260818hq",
+   "roomTypes": 14,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Premium Suite 6 Beds Japanese Style",
+     "capacity": 6,
+     "adults": false,
+     "capacityText": {
+      "en": "6 guests",
+      "ko": "6명",
+      "zh-TW": "6名住客"
+     },
+     "size": "69.0 m²",
+     "sizeM2": 69.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds, 2 futons",
+      "ko": "싱글 침대 2개, 소파베드 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張沙發床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 4,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Executive Suite 6 Beds Japanese Style",
+     "capacity": 6,
+     "adults": false,
+     "capacityText": {
+      "en": "6 guests",
+      "ko": "6명",
+      "zh-TW": "6名住客"
+     },
+     "size": "63.0 m²",
+     "sizeM2": 63.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds, 2 futons",
+      "ko": "싱글 침대 2개, 소파베드 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張沙發床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 4,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Executive Suite 4 Beds Japanese Style",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "60.0 m²",
+     "sizeM2": 60.0,
+     "beds": {
+      "en": "2 single beds, 1 queen bed, 1 futon",
+      "ko": "싱글 침대 2개, 퀸 침대 1개, 요이불 1개",
+      "zh-TW": "2張單人床、1張加大雙人床、1張日式床墊"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Deluxe Suite 6 Beds Japanese Style",
+     "capacity": 6,
+     "adults": false,
+     "capacityText": {
+      "en": "6 guests",
+      "ko": "6명",
+      "zh-TW": "6名住客"
+     },
+     "size": "55.0 m²",
+     "sizeM2": 55.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds, 2 futons",
+      "ko": "싱글 침대 2개, 소파베드 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張沙發床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 4,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-4",
+     "nameEn": "Deluxe Suite 4 Beds",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "55.0 m²",
+     "sizeM2": 55.0,
+     "beds": {
+      "en": "2 single beds, 1 queen bed, 1 sofa bed",
+      "ko": "싱글 침대 2개, 퀸 침대 1개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張加大雙人床、1張沙發床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-5",
+     "nameEn": "Deluxe Suite 5 Beds Japanese Style A",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "51.0 m²",
+     "sizeM2": 51.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed, 2 futons",
+      "ko": "싱글 침대 2개, 소파베드 1개, 요이불 2개",
+      "zh-TW": "2張單人床、1張沙發床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-6",
+     "nameEn": "Deluxe Suite 5 Beds Japanese Style B",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "49.0 m²",
+     "sizeM2": 49.0,
+     "beds": {
+      "en": "2 single beds, 3 futons",
+      "ko": "싱글 침대 2개, 요이불 3개",
+      "zh-TW": "2張單人床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-7",
+     "nameEn": "Superior Suite 5 Beds",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "45.0 m²",
+     "sizeM2": 45.0,
+     "beds": {
+      "en": "2 single beds, 3 sofa beds",
+      "ko": "싱글 침대 2개, 소파베드 3개",
+      "zh-TW": "2張單人床、3張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-8",
+     "nameEn": "Superior 5 Beds Japanese Style",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed, 2 futons",
+      "ko": "싱글 침대 2개, 소파베드 1개, 요이불 2개",
+      "zh-TW": "2張單人床、1張沙發床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-9",
+     "nameEn": "Superior 4 Beds Japanese Style",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 single beds, 2 futons",
+      "ko": "싱글 침대 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-10",
+     "nameEn": "Moderate 4 Beds Japanese Style",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "36.0 m²",
+     "sizeM2": 36.0,
+     "beds": {
+      "en": "2 single beds, 2 futons",
+      "ko": "싱글 침대 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-11",
+     "nameEn": "Moderate 4 Beds",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "36.0 m²",
+     "sizeM2": 36.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds",
+      "ko": "싱글 침대 2개, 소파베드 2개",
+      "zh-TW": "2張單人床、2張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-12",
+     "nameEn": "Moderate 3 beds",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "34.0 m²",
+     "sizeM2": 34.0,
+     "beds": {
+      "en": "1 single bed, 1 double bed, 1 sofa bed",
+      "ko": "싱글 침대 1개, 더블 침대 1개, 소파베드 1개",
+      "zh-TW": "1張單人床、1張雙人床、1張沙發床"
+     },
+     "bedSleepers": 3,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-13",
+     "nameEn": "Standard 3 Beds",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "30.0 m²",
+     "sizeM2": 30.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed",
+      "ko": "싱글 침대 2개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "minn-kawaramachi-gojo",
+   "city": "kyoto",
+   "name": "Minn Kawaramachi Gojo Riverside",
+   "brand": "Minn",
+   "area": {
+    "en": "Kyoto / Higashiyama",
+    "ko": "교토 / 히가시야마구",
+    "zh-TW": "京都 / 東山區"
+   },
+   "photo": "/assets/minn/minn-kawaramachi-gojo/01.jpg?v=20260818hq",
+   "roomTypes": 4,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Family Suite 1 Bedroom 5 Beds",
+     "capacity": 7,
+     "adults": false,
+     "capacityText": {
+      "en": "7 guests",
+      "ko": "7명",
+      "zh-TW": "7名住客"
+     },
+     "size": "54.0 m²",
+     "sizeM2": 54.0,
+     "beds": {
+      "en": "2 double beds, 3 sofa beds",
+      "ko": "더블 침대 2개, 소파베드 3개",
+      "zh-TW": "2張雙人床、3張沙發床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Superior Suite 1 Bedroom 4 Beds",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "47.0 m²",
+     "sizeM2": 47.0,
+     "beds": {
+      "en": "2 double beds, 2 sofa beds",
+      "ko": "더블 침대 2개, 소파베드 2개",
+      "zh-TW": "2張雙人床、2張沙發床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Superior 4 Beds River view",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "43.0 m²",
+     "sizeM2": 43.0,
+     "beds": {
+      "en": "2 double beds, 2 sofa beds",
+      "ko": "더블 침대 2개, 소파베드 2개",
+      "zh-TW": "2張雙人床、2張沙發床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Moderate 4 Beds River View",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "39.0 m²",
+     "sizeM2": 39.0,
+     "beds": {
+      "en": "2 double beds, 2 sofa beds",
+      "ko": "더블 침대 2개, 소파베드 2개",
+      "zh-TW": "2張雙人床、2張沙發床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 2
+    }
+   ]
+  },
+  {
+   "id": "minn-kiyomizu-gojo",
+   "city": "kyoto",
+   "name": "Minn Kiyomizu Gojo",
+   "brand": "Minn",
+   "area": {
+    "en": "Kyoto / Higashiyama",
+    "ko": "교토 / 히가시야마구",
+    "zh-TW": "京都 / 東山區"
+   },
+   "photo": "/assets/minn/minn-kiyomizu-gojo/01.jpg?v=20260818hq",
+   "roomTypes": 6,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Premium Suite 5 Beds",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "60.0 m²",
+     "sizeM2": 60.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed, 2 futons",
+      "ko": "싱글 침대 2개, 소파베드 1개, 요이불 2개",
+      "zh-TW": "2張單人床、1張沙發床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Deluxe Suite 3 Beds",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "46.0 m²",
+     "sizeM2": 46.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed",
+      "ko": "싱글 침대 2개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Moderate 4 Beds Japanese Style",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "35.0 m²",
+     "sizeM2": 35.0,
+     "beds": {
+      "en": "2 single beds, 2 futons",
+      "ko": "싱글 침대 2개, 요이불 2개",
+      "zh-TW": "2張單人床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Moderate 3 Beds",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "34.0 m²",
+     "sizeM2": 34.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed",
+      "ko": "싱글 침대 2개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-4",
+     "nameEn": "Moderate 3 Beds Japanese Style",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "33.0 m²",
+     "sizeM2": 33.0,
+     "beds": {
+      "en": "2 single beds, 1 futon",
+      "ko": "싱글 침대 2개, 요이불 1개",
+      "zh-TW": "2張單人床、1張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-5",
+     "nameEn": "Standard 3 Beds",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "28.0 m²",
+     "sizeM2": 28.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed",
+      "ko": "싱글 침대 2개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "minn-namba-nipponbashi",
+   "city": "osaka",
+   "name": "Minn Namba Nipponbashi",
+   "brand": "Minn",
+   "area": {
+    "en": "Osaka / Naniwa",
+    "ko": "오사카 / 나니와구",
+    "zh-TW": "大阪 / 浪速區"
+   },
+   "photo": "/assets/minn/minn-namba-nipponbashi/01.jpg?v=20260818hq",
+   "roomTypes": 5,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Superior 1- Bedroom Suite with 5 Beds",
+     "capacity": 7,
+     "adults": false,
+     "capacityText": {
+      "en": "7 guests",
+      "ko": "7명",
+      "zh-TW": "7名住客"
+     },
+     "size": "45.0 m²",
+     "sizeM2": 45.0,
+     "beds": {
+      "en": "2 double beds, 3 sofa beds",
+      "ko": "더블 침대 2개, 소파베드 3개",
+      "zh-TW": "2張雙人床、3張沙發床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 3,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Superior 6 Beds - Bunk Style",
+     "capacity": 8,
+     "adults": false,
+     "capacityText": {
+      "en": "8 guests",
+      "ko": "8명",
+      "zh-TW": "8名住客"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 double beds, 2 single beds, 2 sofa beds",
+      "ko": "더블 침대 2개, 싱글 침대 2개, 소파베드 2개",
+      "zh-TW": "2張雙人床、2張單人床、2張沙發床"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Superior Family with 6 Beds - Bunk Style",
+     "capacity": 6,
+     "adults": false,
+     "capacityText": {
+      "en": "6 guests",
+      "ko": "6명",
+      "zh-TW": "6名住客"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 double beds, 2 single beds, 2 sofa beds",
+      "ko": "더블 침대 2개, 싱글 침대 2개, 소파베드 2개",
+      "zh-TW": "2張雙人床、2張單人床、2張沙發床"
+     },
+     "bedSleepers": 6,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Superior 4 Beds",
+     "capacity": 6,
+     "adults": false,
+     "capacityText": {
+      "en": "6 guests",
+      "ko": "6명",
+      "zh-TW": "6名住客"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "2 double beds, 2 sofa beds",
+      "ko": "더블 침대 2개, 소파베드 2개",
+      "zh-TW": "2張雙人床、2張沙發床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-4",
+     "nameEn": "Superior 5 Beds",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "40.0 m²",
+     "sizeM2": 40.0,
+     "beds": {
+      "en": "3 single beds, 2 sofa beds",
+      "ko": "싱글 침대 3개, 소파베드 2개",
+      "zh-TW": "3張單人床、2張沙發床"
+     },
+     "bedSleepers": 3,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "minn-shijo-omiya",
+   "city": "kyoto",
+   "name": "Minn Shijo Omiya",
+   "brand": "Minn",
+   "area": {
+    "en": "Kyoto / Nakagyo",
+    "ko": "교토 / 나카교구",
+    "zh-TW": "京都 / 中京區"
+   },
+   "photo": "/assets/minn/minn-shijo-omiya/01.jpg?v=20260818hq",
+   "roomTypes": 4,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Superior 7beds Japanese-Style room",
+     "capacity": 7,
+     "adults": false,
+     "capacityText": {
+      "en": "7 guests",
+      "ko": "7명",
+      "zh-TW": "7名住客"
+     },
+     "size": "47.0 m²",
+     "sizeM2": 47.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds, 3 futons",
+      "ko": "싱글 침대 2개, 소파베드 2개, 요이불 3개",
+      "zh-TW": "2張單人床、2張沙發床、3張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 5,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Moderate 4beds",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "31.0 m²",
+     "sizeM2": 31.0,
+     "beds": {
+      "en": "2 single beds, 2 sofa beds",
+      "ko": "싱글 침대 2개, 소파베드 2개",
+      "zh-TW": "2張單人床、2張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "yes",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Universal 3beds",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "27.0 m²",
+     "sizeM2": 27.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed",
+      "ko": "싱글 침대 2개, 소파베드 1개",
+      "zh-TW": "2張單人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Standard 1bed",
+     "capacity": 2,
+     "adults": false,
+     "capacityText": {
+      "en": "2 guests",
+      "ko": "2명",
+      "zh-TW": "2名住客"
+     },
+     "size": "16.0 m²",
+     "sizeM2": 16.0,
+     "beds": {
+      "en": "1 queen bed",
+      "ko": "퀸 침대 1개",
+      "zh-TW": "1張加大雙人床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "unknown",
+      "drying": "unknown",
+      "kitchen": "unknown",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 1
+    }
+   ]
+  },
+  {
+   "id": "minn-shin-osaka",
+   "city": "osaka",
+   "name": "Minn Shin-Osaka",
+   "brand": "Minn",
+   "area": {
+    "en": "Osaka / Higashiyodogawa",
+    "ko": "오사카 / 히가시요도가와구",
+    "zh-TW": "大阪 / 東淀川區"
+   },
+   "photo": "/assets/minn/minn-shin-osaka/01.jpg?v=20260818hq",
+   "roomTypes": 5,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Theater Force",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "35.0 m²",
+     "sizeM2": 35.0,
+     "beds": {
+      "en": "4 single beds",
+      "ko": "싱글 침대 4개",
+      "zh-TW": "4張單人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Theater Twin",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "33–35 m²",
+     "sizeM2": 33.0,
+     "beds": {
+      "en": "2 double beds",
+      "ko": "더블 침대 2개",
+      "zh-TW": "2張雙人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Theater Family",
+     "capacity": 5,
+     "adults": false,
+     "capacityText": {
+      "en": "5 guests",
+      "ko": "5명",
+      "zh-TW": "5名住客"
+     },
+     "size": "33.0 m²",
+     "sizeM2": 33.0,
+     "beds": {
+      "en": "2 single beds, 1 sofa bed, 1 bunk bed, 1 futon",
+      "ko": "싱글 침대 2개, 소파베드 1개, 이층 침대 1개, 요이불 1개",
+      "zh-TW": "2張單人床、1張沙發床、1張上下舖、1張日式床墊"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Theater Double A",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "33.0 m²",
+     "sizeM2": 33.0,
+     "beds": {
+      "en": "1 double bed, 2 futons",
+      "ko": "더블 침대 1개, 요이불 2개",
+      "zh-TW": "1張雙人床、2張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-4",
+     "nameEn": "Theater Double B",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "33.0 m²",
+     "sizeM2": 33.0,
+     "beds": {
+      "en": "1 double bed, 1 futon",
+      "ko": "더블 침대 1개, 요이불 1개",
+      "zh-TW": "1張雙人床、1張日式床墊"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    }
+   ]
+  },
+  {
+   "id": "minn-umeda-north",
+   "city": "osaka",
+   "name": "Minn Umeda North",
+   "brand": "Minn",
+   "area": {
+    "en": "Osaka / Fukushima",
+    "ko": "오사카 / 후쿠시마구",
+    "zh-TW": "大阪 / 福島區"
+   },
+   "photo": "/assets/minn/minn-umeda-north/01.jpg?v=20260818hq",
+   "roomTypes": 4,
+   "rooms": [
+    {
+     "id": "room-0",
+     "nameEn": "Premium Suite 4 Beds",
+     "capacity": 6,
+     "adults": false,
+     "capacityText": {
+      "en": "6 guests",
+      "ko": "6명",
+      "zh-TW": "6名住客"
+     },
+     "size": "75.9 m²",
+     "sizeM2": 75.9,
+     "beds": {
+      "en": "2 double beds, 2 sofa beds",
+      "ko": "더블 침대 2개, 소파베드 2개",
+      "zh-TW": "2張雙人床、2張沙發床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 2,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-1",
+     "nameEn": "Moderate Theater 2 Beds B",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "32.6 m²",
+     "sizeM2": 32.6,
+     "beds": {
+      "en": "2 double beds",
+      "ko": "더블 침대 2개",
+      "zh-TW": "2張雙人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-2",
+     "nameEn": "Moderate Theater 2 Beds",
+     "capacity": 3,
+     "adults": false,
+     "capacityText": {
+      "en": "3 guests",
+      "ko": "3명",
+      "zh-TW": "3名住客"
+     },
+     "size": "31.1 m²",
+     "sizeM2": 31.1,
+     "beds": {
+      "en": "1 double bed, 1 sofa bed",
+      "ko": "더블 침대 1개, 소파베드 1개",
+      "zh-TW": "1張雙人床、1張沙發床"
+     },
+     "bedSleepers": 2,
+     "otherSleepers": 1,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    },
+    {
+     "id": "room-3",
+     "nameEn": "Moderate Theater 2 Beds A",
+     "capacity": 4,
+     "adults": false,
+     "capacityText": {
+      "en": "4 guests",
+      "ko": "4명",
+      "zh-TW": "4名住客"
+     },
+     "size": "29.9 m²",
+     "sizeM2": 29.9,
+     "beds": {
+      "en": "2 double beds",
+      "ko": "더블 침대 2개",
+      "zh-TW": "2張雙人床"
+     },
+     "bedSleepers": 4,
+     "otherSleepers": 0,
+     "bedStatus": "ok",
+     "amenities": {
+      "washer": "yes",
+      "drying": "unknown",
+      "kitchen": "yes",
+      "microwave": "yes",
+      "fridge": "yes",
+      "stove": "unknown",
+      "cookware": "unknown",
+      "tableware": "unknown"
+     },
+     "level": 3
+    }
+   ]
+  }
+ ]
+}
