@@ -293,6 +293,8 @@ class Build:
     def edit_home_en(self):
         rel = 'index.html'
         s = (self.root / rel).read_text(encoding='utf-8')
+        if '<!-- gsj-home-v15:start -->' in s:
+            return False  # v15: the top page has its own city links (scripts/build-home-v15.py)
         T = self.cfg['text']['en']
         links = ''.join(f'<li><a href="/en/{c["key"]}/">{esc(T["homeLink"].format(city=c["name"]["en"]))}</a></li>'
                         for c in self.cfg['cities'])

@@ -135,7 +135,7 @@ def build(input_path, day):
     changes={}
     template=read(ROOT/'en/tokyo/hotels-for-6-guests/index.html')
     for lang in ['en','ja']:changes[f'{lang}/real-beds/index.html']=article(lang,day,stats,template)
-    if 'data-i18n="realBedsArticle"' not in home:
+    if 'data-i18n="realBedsArticle"' not in home and 'data-real-beds-article' not in home:
         home=insert_after(home,r'<p\b[^>]*data-i18n="realBedsNote"[^>]*>.*?</p>','<p><a data-i18n="realBedsArticle" data-real-beds-article="" href="/en/real-beds/" style="text-decoration:underline">How we counted, and results by group size →</a></p>')
         # Existing applyLang uses en/ja/zh/ko dictionaries and gsj-language events.
         marker='const pageParams=new URLSearchParams(location.search);'
