@@ -1,0 +1,70 @@
+/* Data article /en/real-beds/ and /ja/real-beds/ (v16). Built by scripts/build-real-beds-v16.py on top of assets/gsj-home-v15.css. */
+.rb-hero{padding-top:28px}
+.rb-hero .rb-h1{margin:0;font-size:clamp(38px,5.6vw,64px)}
+.rb-more{padding-top:6px;padding-bottom:64px}
+.rb-card{padding:22px;display:flex;flex-direction:column;gap:14px}
+.rb-more .h15-chart{flex:none}
+.rb-card .h15-note{max-width:none}
+:where(.h15) :is(h1,ol,li){margin:0}
+:where(.h15) ol{padding:0;list-style:none}
+
+/* by group size */
+.h15-row.is-low .h15-bar i{background:#c98a12}
+.h15-row.is-low .h15-row-area,.h15-row.is-low .h15-row-val b{color:#8a5d00}
+.rb-callout{display:flex;align-items:flex-start;gap:10px;padding:12px 14px;border-radius:14px;background:#fff3d2;color:#654400;font:700 14px/1.5 var(--h15-body)}
+.rb-callout .h15-i{margin-top:1px;stroke:#8a5d00}
+
+/* where the rest sleeps, people without a bed */
+.rb-two{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:20px}
+.rb-tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.rb-tiles .h15-bt{min-width:0;padding:12px 6px 11px}
+.rb-tiles .h15-bt-count{font-size:26px;letter-spacing:-.02em}
+.rb-bt-unit{font:600 11px/1.2 var(--h15-body);color:#8a5d00;white-space:nowrap}
+.rb-cols{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;align-items:end;min-height:230px}
+.rb-col{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:7px;min-width:0}
+.rb-col-n{font:800 22px/1 var(--h15-head);letter-spacing:-.02em;color:#14231d}
+.rb-col-bar{display:flex;align-items:flex-end;width:100%;max-width:68px;height:130px}
+.rb-col-bar i{display:block;width:100%;min-height:6px;border-radius:12px 12px 4px 4px;background:#c98a12}
+.rb-col-label{font:700 13px/1.2 var(--h15-body);color:#14231d;text-align:center;white-space:nowrap}
+.rb-col .h15-dots{flex-wrap:nowrap;justify-content:center;min-height:20px}
+
+/* rooms for six */
+.rb-sixbar{display:flex;gap:3px;height:16px}
+.rb-sixbar i{display:block;border-radius:3px}
+.rb-sixbar i:first-child{border-radius:8px 3px 3px 8px}
+.rb-sixbar i:last-child{border-radius:3px 8px 8px 3px}
+.rb-sixbar .s6,.rb-six-key.s6{background:#164c39}
+.rb-sixbar .s4,.rb-six-key.s4{background:#79a48d}
+.rb-sixbar .s3,.rb-six-key.s3{background:#e3b54f}
+.rb-sixbar .s2,.rb-six-key.s2{background:#c98a12}
+.rb-six-rows{display:flex;flex-direction:column}
+.rb-six-row{display:grid;grid-template-columns:12px auto minmax(0,1fr) auto;align-items:center;gap:12px;padding:11px 0;border-top:1px solid #edf0ec}
+.rb-six-row:first-child{border-top:0}
+.rb-six-key{display:block;width:12px;height:12px;border-radius:4px}
+.rb-six-label{font:700 14px/1.3 var(--h15-body);color:#14231d}
+.rb-six-n{display:flex;align-items:baseline;justify-content:flex-end;gap:8px;white-space:nowrap}
+.rb-six-n b{font:800 24px/1 var(--h15-head);letter-spacing:-.02em;color:#14231d}
+.rb-six-n span{min-width:3.2em;font:600 12px/1 var(--h15-body);color:#59655f;text-align:right}
+
+/* before you book */
+.rb-checks{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:14px}
+.rb-check{display:flex;align-items:flex-start;gap:14px;padding:18px;border-radius:18px;background:#fff;border:1px solid #dfe4df}
+.rb-check-ic{flex:none;display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:12px;background:#e7f2eb}
+.rb-check-ic .h15-i{width:22px;height:22px;stroke:#164c39}
+.rb-check p{font:600 15px/1.55 var(--h15-body);color:#14231d}
+
+/* compare */
+.rb-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr));gap:12px}
+
+@media (max-width:620px){
+ .rb-hero{padding-top:18px}
+ .rb-card{padding:18px}
+ .rb-tiles{gap:8px}
+ .rb-tiles .h15-bt-count{font-size:22px}
+ .rb-cols{gap:8px;min-height:210px}
+ .rb-col-bar{height:110px}
+ .rb-col-label{font-size:12px}
+ .rb-col .h15-dots{display:none}
+ .rb-six-row{grid-template-columns:12px minmax(0,1fr) auto;gap:6px 10px}
+ .rb-six-row .h15-dots{grid-column:2/-1;grid-row:2}
+}

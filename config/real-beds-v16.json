@@ -1,0 +1,242 @@
+{
+  "version": "20261114",
+  "numbers": {
+    "groups": [
+      [
+        "3",
+        36,
+        18
+      ],
+      [
+        "4",
+        196,
+        138
+      ],
+      [
+        "5",
+        55,
+        12
+      ],
+      [
+        "6",
+        113,
+        67
+      ],
+      [
+        "7",
+        9,
+        3
+      ],
+      [
+        "8",
+        37,
+        21
+      ]
+    ],
+    "low": "5",
+    "rest": {
+      "rooms": 182,
+      "futon": 104,
+      "sofa": 79,
+      "day": 14
+    },
+    "gaps": [
+      [
+        "1",
+        42
+      ],
+      [
+        "2",
+        91
+      ],
+      [
+        "3",
+        32
+      ],
+      [
+        "4",
+        17
+      ]
+    ],
+    "six": [
+      [
+        "6",
+        67
+      ],
+      [
+        "4",
+        37
+      ],
+      [
+        "3",
+        1
+      ],
+      [
+        "2",
+        8
+      ]
+    ]
+  },
+  "text": {
+    "h1": {
+      "en": "Does everyone get a real bed?",
+      "ja": "全員が<wbr>ベッドで<wbr>寝られる？"
+    },
+    "exTitle": {
+      "en": "Same six guests, two different rooms",
+      "ja": "同じ6人でも、<wbr>部屋によって<wbr>こんなに違う"
+    },
+    "gsTitle": {
+      "en": "Real beds for every guest, by group size",
+      "ja": "定員の人数分、<wbr>ベッドがある客室<wbr>（人数別）"
+    },
+    "gsSub": {
+      "en": "Share of each group size’s room types",
+      "ja": "定員ごとの客室のうちの割合"
+    },
+    "gs3": {
+      "en": "2–3 guests",
+      "ja": "2〜3人"
+    },
+    "gs4": {
+      "en": "4 guests",
+      "ja": "4人"
+    },
+    "gs5": {
+      "en": "5 guests",
+      "ja": "5人"
+    },
+    "gs6": {
+      "en": "6 guests",
+      "ja": "6人"
+    },
+    "gs7": {
+      "en": "7 guests",
+      "ja": "7人"
+    },
+    "gs8": {
+      "en": "8 or more",
+      "ja": "8人以上"
+    },
+    "roomsN": {
+      "en": "{n} room types",
+      "ja": "{n}室"
+    },
+    "gsCallout": {
+      "en": "Rooms for five are the hardest: only 12 of 55 give all five guests a real bed.",
+      "ja": "いちばん厳しいのは5人用。55室のうち、5人全員がベッドで寝られるのは12室だけです。"
+    },
+    "wrTitle": {
+      "en": "Where the rest of the group sleeps",
+      "ja": "ベッドが<wbr>足りない分は<wbr>どこで寝る？"
+    },
+    "wrLead": {
+      "en": "In 182 room types, the beds hold fewer people than the room’s capacity. The rest of the group sleeps on:",
+      "ja": "ベッドで寝られる人数が定員より少ない客室は182室。残りの人が寝るのは："
+    },
+    "wrFuton": {
+      "en": "Futons",
+      "ja": "布団"
+    },
+    "wrSofa": {
+      "en": "Sofa beds",
+      "ja": "ソファベッド"
+    },
+    "wrDay": {
+      "en": "Day beds",
+      "ja": "デイベッド"
+    },
+    "wrUnit": {
+      "en": "room types",
+      "ja": "室"
+    },
+    "wrNote": {
+      "en": "Some rooms use more than one.",
+      "ja": "1つの客室で2種類以上を使うこともあります。"
+    },
+    "pwTitle": {
+      "en": "How many people miss out on a real bed",
+      "ja": "ベッドで<wbr>寝られない人数"
+    },
+    "pwSub": {
+      "en": "In the 182 room types without enough real beds",
+      "ja": "ベッドが足りない182室の内訳"
+    },
+    "pw1": {
+      "en": "1 person",
+      "ja": "1人"
+    },
+    "pw2": {
+      "en": "2 people",
+      "ja": "2人"
+    },
+    "pw3": {
+      "en": "3 people",
+      "ja": "3人"
+    },
+    "pw4": {
+      "en": "4 or more",
+      "ja": "4人以上"
+    },
+    "sxTitle": {
+      "en": "Rooms for six: how many real beds?",
+      "ja": "6人用の客室：<wbr>ベッドは<wbr>何人分？"
+    },
+    "sxSub": {
+      "en": "All 113 room types sold for six guests",
+      "ja": "定員6人の113室すべて"
+    },
+    "sx6": {
+      "en": "Real beds for all six",
+      "ja": "6人全員分"
+    },
+    "sx4": {
+      "en": "Real beds for four",
+      "ja": "4人分"
+    },
+    "sx3": {
+      "en": "Real beds for three",
+      "ja": "3人分"
+    },
+    "sx2": {
+      "en": "Real beds for only two",
+      "ja": "2人分だけ"
+    },
+    "sxNote": {
+      "en": "In the rooms without enough beds, the rest of the group sleeps on sofa beds, futons or day beds.",
+      "ja": "ベッドが足りない客室では、残りの人がソファベッド・布団・デイベッドで寝ます。"
+    },
+    "bbTitle": {
+      "en": "Before you book",
+      "ja": "予約の前に<wbr>確かめること"
+    },
+    "bb1": {
+      "en": "The bed types and counts, and whether sofa beds or futons are part of the capacity",
+      "ja": "ベッドの種類と数。ソファベッドや布団が定員に入っていないか"
+    },
+    "bb2": {
+      "en": "How many bathrooms there are",
+      "ja": "バスルームの数"
+    },
+    "bb3": {
+      "en": "For longer stays, whether the washing machine is in the room or shared",
+      "ja": "連泊なら、洗濯機が部屋の中にあるか、共用か"
+    },
+    "compareTitle": {
+      "en": "Compare stays",
+      "ja": "宿を比べる"
+    },
+    "longTitle": {
+      "en": "Longer stays",
+      "ja": "連泊向け"
+    },
+    "longSub": {
+      "en": "Tokyo, with kitchen and washer",
+      "ja": "東京・キッチンと洗濯機"
+    },
+    "endNote": {
+      "en": "Bed details can change. Always confirm on the hotel’s official site before booking.",
+      "ja": "ベッドの情報は変わることがあります。予約の前に、必ずホテルの公式サイトで確かめてください。"
+    }
+  }
+}

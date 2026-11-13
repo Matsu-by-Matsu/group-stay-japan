@@ -671,10 +671,10 @@
    "zh-TW": "MIMARU Tokyo Station East的47㎡ 「Two-Bedroom Family Apartment」有4張單人床與1組上下舖，可住6位成人，其中2人使用上下舖。設有1間浴室，洗衣使用共用投幣設施。"
   },
   "rcSource": {
-   "en": "Official room specifications",
-   "ja": "公式の客室仕様",
-   "ko": "공식 객실 사양",
-   "zh-TW": "官方客房規格"
+   "en": "See this room",
+   "ja": "この客室を見る",
+   "ko": "이 객실 보기",
+   "zh-TW": "查看這間客房"
   },
   "rc2m2": {
    "en": "m²",
@@ -1112,6 +1112,12 @@
    "ja": "/ja/tokyo/long-stay-apartment-hotels/",
    "ko": "/ko/tokyo/long-stay-apartment-hotels/",
    "zh-TW": "/zh-tw/tokyo/long-stay-apartment-hotels/"
+  },
+  "rc1": {
+   "en": "/stays/mimaru-tokyo-station-east/",
+   "ja": "/ja/stays/mimaru-tokyo-station-east/",
+   "ko": "/ko/stays/mimaru-tokyo-station-east/",
+   "zh-TW": "/zh-tw/stays/mimaru-tokyo-station-east/"
   },
   "article": {
    "en": "/en/real-beds/",

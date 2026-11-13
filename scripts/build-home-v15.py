@@ -262,7 +262,7 @@ class Block:
                  + self.dots(6) + '<div class="h15-bchips">' + chip('bed', 'chip4single') + chip('bunk', 'chip1bunk') + chip('bath', 'chip1bath')
                  + chip('washer', 'chipCoin', ' is-muted') + '</div></div>'
                  + '<div class="h15-rc-body">' + self.tx('rc1Title', 'h3', 'h15-h4 h15-k') + self.tx('rc1Copy', 'p')
-                 + '<a class="h15-rc-link" href="https://mimaruhotels.com/en/hotel/tokyo-station-east/" rel="noopener" target="_blank">'
+                 + f'<a class="h15-rc-link" {self.href("rc1")}>'
                  + self.tx('rcSource') + ' →</a></div></article>')
         room_guide = ' data-room-guide="eight"' if self.dyn else ''
         o.append('<article class="h15-card h15-rc"><div class="h15-rc-top"><div class="h15-stats">' + stat(82, 'rc2m2') + stat(8, 'rc2beds') + stat(2, 'rc2baths') + '</div>'
